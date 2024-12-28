@@ -37,6 +37,9 @@ const Navbar = () => {
 <div className="header2">
     
 </div>
+
+
+
         </>
     );
 }

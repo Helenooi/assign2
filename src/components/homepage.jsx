@@ -1,17 +1,13 @@
-
-import  '../css/testing.css';
+import React from 'react';
 
 export const Homepage = () => {
-    return ( 
-        <>
-
-<div className="content">
-        <h2>bbb</h2>
+  console.log('Homepage loaded'); // Debugging log
+  return (
+    <div>
+      <h1>Homepage</h1>
+      <p>This content should display!</p>
     </div>
+  );
+};
 
-        </>
-
-     );
-}
- 
 export default Homepage;
