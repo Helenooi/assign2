@@ -1,24 +1,46 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import "../css/App.css";
-import attraction1 from "./image_attraction/entopia.png";
-import attraction2 from "./image_attraction/escape1.jpg";
-import attraction3 from "./image_attraction/penangnaturalpark4.jpg";
+import penanghill_1 from "./image_attraction/penanghill_1.jpg";
+import penanghill_2 from "./image_attraction/penanghill_2.jpg";
+import penanghill_3 from "./image_attraction/penanghill_3.jpg";
+import penanghill_4 from "./image_attraction/penanghill_4.jpg";
+import penanghill_5 from "./image_attraction/penanghill_5.jpg";
+import penanghill_6 from "./image_attraction/penanghill_6.jpg";
+
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa6";
+import { MdOutlineMailOutline } from "react-icons/md";
 
 function App() {
+
+  const [imageIndex, setImageIndex] = useState(0);
+
+  const images = [
+    penanghill_1,
+    penanghill_2,
+    penanghill_3,
+    penanghill_4,
+    penanghill_5,
+    penanghill_6,
+  ];
+
+  // Set interval to change image every 3 seconds
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
+  }, []);
+  
   return (
     <>
       <Navbar />
 
       <div className="header2">
 
-<div class="sectionattraction">
-<div class="box">
-<img src={attraction1} alt=""/> 
- <img src={attraction2} alt=""/>
- <img src={attraction3} alt=""/>
-</div>
-</div>
 </div>
       <div className="section">
         <section id="homepage">
@@ -56,6 +78,94 @@ function App() {
             
           </div>
         </section>
+
+        <section id="attraction">
+
+          <h1>Penang Attraction</h1>
+          <div className="boxright">
+            <div className="box">
+              <img
+                src={images[imageIndex]}
+                className="imgactive"
+                alt="Penang Hill"
+              />
+              <div className="whiteboardtext">
+                <p>Penang Hill</p>
+              </div>
+
+              <div className="iconbox">
+                <a
+                  href="https://www.google.com/maps/place/Penang+Hill"
+                  target="_blank"
+                >
+                  <FaMapMarkerAlt />
+                </a>
+                <a>
+                <FaPhone />
+                </a>
+                <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
+                <MdOutlineMailOutline />
+                </a>
+              </div>
+            </div>
+
+            <div className="box">
+              <img
+                src={images[imageIndex]}
+                className="imgactive"
+                alt="Penang Hill"
+              />
+              <div className="whiteboardtext">
+                <p>Penang Hill</p>
+              </div>
+
+              <div className="iconbox">
+                <a
+                  href="https://www.google.com/maps/place/Penang+Hill"
+                  target="_blank"
+                >
+                  <FaMapMarkerAlt />
+                </a>
+                <a>
+                <FaPhone />
+                </a>
+                <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
+                <MdOutlineMailOutline />
+                </a>
+              </div>
+            </div>
+
+
+            <div className="box">
+              <img
+                src={images[imageIndex]}
+                className="imgactive"
+                alt="Penang Hill"
+              />
+              <div className="whiteboardtext">
+                <p>Penang Hill</p>
+              </div>
+
+              <div className="iconbox">
+                <a
+                  href="https://www.google.com/maps/place/Penang+Hill"
+                  target="_blank"
+                >
+                  <FaMapMarkerAlt />
+                </a>
+                <a>
+                <FaPhone />
+                </a>
+                <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
+                <MdOutlineMailOutline />
+                </a>
+              </div>
+            </div>
+
+            
+          </div>
+        </section>
+        
       </div>
     </>
   );

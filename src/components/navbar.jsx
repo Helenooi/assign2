@@ -25,7 +25,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="navbar-button">Penang Attractions</a>
+                <a href="#attraction" className="navbar-button">Penang Attractions</a>
               </li>
               <li>
                 <a href="#aboutus" className="navbar-button">Food & Cuisine</a>
