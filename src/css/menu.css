@@ -35,7 +35,7 @@ a{
 }
 
 header{
-    background-color: #fff;
+    background: linear-gradient(to bottom, black, transparent);
     box-shadow: 0 0 px rgba(0,0,0,0.5);
     padding:0.5rem 0rem;
     position: fixed;
@@ -47,28 +47,73 @@ header{
 .header2{
     width:100%;
     height:100vh;
-    background-image: url("../assets/background.jpg");
+    background-image: url("homepage/background.jpg");
     background-position: bottom;
     background-size: cover;
     background-blend-mode: darken;
-    
 }
+
 .container{
     max-width:1440px;
     width:100%;
     margin:0 auto;
-    padding:0 1rem;
+    height: 80px; /* Increase height to make it taller */
+    padding: 20px 0; /* Add more vertical padding if needed */
+    display: flex; /* Use flexbox for vertical centering */
+    align-items: center; /* Vertically center the content */
+    justify-content: center; /* Center horizontally if needed */
 }
+
 .container nav{
     display:flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    width: 100%; /* Make the nav span the full container width */
+    position: relative;
+    cursor: pointer;
 }
+
 .container nav .logo{
+    position: absolute;  /* Position logo separately */
+    left: 0;  /* Align it to the left */
     color:#212a3c;
     font-size:1rem;
     cursor:pointer;
 }
+
+.container nav .nav-items {
+    display: flex;
+    justify-content: center;
+    width: 100%;  /* Take up the remaining width */
+}
+
+.container nav .nav-items a {
+    margin: 0 10px;  /* Optional: space out the navigation items */
+}
+
+.container nav .nav-link li {
+    list-style: none;
+    margin: 0 10px;
+  }
+
+
+.container nav .nav-link li a {
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    display: block;
+    border-radius: 4px;
+  }
+
+.container .penang-tag {
+    position: absolute; /* Position it independently */
+    right: 10px; /* Align it to the far right */
+    color: white; /* Text color */
+    margin: 0;
+    padding-right: 20px; /* Optional: add space from the right */
+    font-style: italic;
+}
+
 .icon{
     color:black;
 }
@@ -80,16 +125,18 @@ header{
     margin:0 0.5rem;
 }
 .container .nav-link li a{
-    color:#212a3c;
+    color:#fff;
     font-size:1rem;
     padding:0.5rem 1rem;
     display:block;
     border-radius: 4px;
 }
+
+/*
 .container .nav-link li a:hover,
 .container .nav-link li a.active{
     background-color: #ecf0f1;
-}
+}*/
 /*
 .content{
     position: absolute;
@@ -104,16 +151,52 @@ header{
 }
     */
 
-    section{
-        height: 400px;
-        background-color: rgb(249, 249, 249);
-        border-top: 1px solid black;
-    }
+section{
+    height: 400px;
+    background-color: rgb(249, 249, 249);
+    border-top: 1px solid black;
+}
+
 .icon{
     font-size:1.5rem;
     cursor:pointer;
     display: none;
 }
+
+.logo-size {
+    width: 100px;
+}
+
+.navbar-button {
+    color: white; /* White text color */
+    background-color: transparent; /* Transparent background */
+    text-decoration: none; /* Remove underline by default */
+    padding: 10px 20px; /* Add padding for spacing */
+    font-size: 16px; /* Optional: Adjust font size */
+    position: relative; /* For underline effect */
+    transition: color 0.3s ease; /* Smooth text color transition */
+}
+
+.navbar-button::after {
+    content: ""; /* Pseudo-element for the underline */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0; /* Initially, no underline */
+    background-color: yellow; /* Yellow underline */
+    transition: width 0.4s ease; /* Smooth underline animation */
+}
+
+.navbar-button:hover {
+    color: yellow; /* Change text color on hover */
+}
+
+.navbar-button:hover::after {
+    width: 100%; /* Full-width underline on hover */
+}
+
+
 @media(max-width:768px){
     .container nav .logo{
         font-size:0.7rem;

@@ -14,22 +14,32 @@ const Navbar = () => {
         <div className="container">
           <nav>
             <div className="logo">
-              Penang Holiao
+              <img src='homepage/logo.png' class='logo-size'></img>
             </div>
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
               <li>
-                <a href="#homepage" className="active">
-                  Home
+                <a href="#homepage" className="navbar-button">
+                  About
                 </a>
               </li>
               <li>
-                <a href="#contact">Contact Us</a>
+                <a href="#contact" className="navbar-button">Penang Attractions</a>
               </li>
               <li>
-                <a href="#aboutus">About Us</a>
+                <a href="#aboutus" className="navbar-button">Food & Cuisine</a>
+              </li>
+              <li>
+                <a href="#aboutus" className="navbar-button">Events & Festivals</a>
+              </li>
+              <li>
+                <a href="#cultureHeritage" className="navbar-button">Culture & Heritage</a>
               </li>
             </ul>
+
+            <div class="penang-tag">
+                <p># penangonebetter</p>
+            </div>
             <div className="icon" onClick={toggleMenu}>
               <IoMenu />
             </div>
