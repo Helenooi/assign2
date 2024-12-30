@@ -1,12 +1,25 @@
 import React from "react";
 import Navbar from "../components/navbar.jsx";
 import "../css/App.css";
+import attraction1 from "./image_attraction/entopia.png";
+import attraction2 from "./image_attraction/escape1.jpg";
+import attraction3 from "./image_attraction/penangnaturalpark4.jpg";
 
 function App() {
   return (
     <>
       <Navbar />
 
+      <div className="header2">
+
+<div class="sectionattraction">
+<div class="box">
+<img src={attraction1} alt=""/> 
+ <img src={attraction2} alt=""/>
+ <img src={attraction3} alt=""/>
+</div>
+</div>
+</div>
       <div className="section">
         <section id="homepage">
           <h1>section1</h1>

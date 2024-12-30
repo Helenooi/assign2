@@ -2,6 +2,7 @@ import "../css/menu.css";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -47,7 +48,6 @@ const Navbar = () => {
         </div>
       </header>
 
-      <div className="header2"></div>
     </>
   );
 };
