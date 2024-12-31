@@ -5,9 +5,19 @@ import "../css/App.css";
 import penanghill_1 from "./image_attraction/penanghill_1.jpg";
 import penanghill_2 from "./image_attraction/penanghill_2.jpg";
 import penanghill_3 from "./image_attraction/penanghill_3.jpg";
-import penanghill_4 from "./image_attraction/penanghill_4.jpg";
-import penanghill_5 from "./image_attraction/penanghill_5.jpg";
-import penanghill_6 from "./image_attraction/penanghill_6.jpg";
+
+import escape1 from "./image_attraction/escape1.jpg";
+import escape2 from "./image_attraction/escape2.jpg";
+import escape3 from "./image_attraction/escape3.jpg";
+
+import penangnaturalpark1 from "./image_attraction/penangnaturalpark1.jpg";
+import penangnaturalpark2 from "./image_attraction/penangnaturalpark2.jpg";
+import penangnaturalpark3 from "./image_attraction/penangnaturalpark3.jpg";
+
+import entopia1 from "./image_attraction/entopia1.jpg";
+import entopia2 from "./image_attraction/entopia2.jpg";
+import entopia3 from "./image_attraction/entopia3.jpg";
+
 
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
@@ -15,26 +25,44 @@ import { MdOutlineMailOutline } from "react-icons/md";
 
 function App() {
 
-  const [imageIndex, setImageIndex] = useState(0);
+  const penangHillImages = [penanghill_1, penanghill_2, penanghill_3];
+  const escapeImages = [escape1, escape2, escape3];
+  const penangNaturalParkImages = [penangnaturalpark1, penangnaturalpark2, penangnaturalpark3];
+  const entopiaImages = [entopia1, entopia2, entopia3];
 
-  const images = [
-    penanghill_1,
-    penanghill_2,
-    penanghill_3,
-    penanghill_4,
-    penanghill_5,
-    penanghill_6,
-  ];
+  const [penangHillIndex, setPenangHillIndex] = useState(0);
+  const [escapeIndex, setEscapeIndex] = useState(0);
+  const [penangNaturalParkIndex, setPenangNaturalParkIndex] = useState(0);
+  const [entopiaIndex, setentopiaIndex] = useState(0);
 
-  // Set interval to change image every 3 seconds
   useEffect(() => {
     const intervalId = setInterval(() => {
-      setImageIndex((prevIndex) => (prevIndex + 1) % images.length);
+      setPenangHillIndex((prevIndex) => (prevIndex + 1) % penangHillImages.length);
     }, 3000);
+    return () => clearInterval(intervalId);
+  }, [penangHillImages.length]);
 
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
-  }, []);
-  
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setEscapeIndex((prevIndex) => (prevIndex + 1) % escapeImages.length);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, [escapeImages.length]);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setPenangNaturalParkIndex((prevIndex) => (prevIndex + 1) % penangNaturalParkImages.length);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, [penangNaturalParkImages.length]);
+
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setentopiaIndex((prevIndex) => (prevIndex + 1) % entopiaImages.length);
+    }, 3000);
+    return () => clearInterval(intervalId);
+  }, [penangNaturalParkImages.length]);
+
   return (
     <>
       <Navbar />
@@ -81,11 +109,11 @@ function App() {
 
         <section id="attraction">
 
-          <h1>Penang Attraction</h1>
+          <h1 className="title">Penang Attraction</h1>
           <div className="boxright">
             <div className="box">
-              <img
-                src={images[imageIndex]}
+            <img
+                src={penangHillImages[penangHillIndex]}
                 className="imgactive"
                 alt="Penang Hill"
               />
@@ -100,9 +128,11 @@ function App() {
                 >
                   <FaMapMarkerAlt />
                 </a>
-                <a>
-                <FaPhone />
+
+                 <a>
+                <FaPhone title="017-797 7529 (whatsapp only)"/>
                 </a>
+
                 <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
                 <MdOutlineMailOutline />
                 </a>
@@ -110,26 +140,26 @@ function App() {
             </div>
 
             <div className="box">
-              <img
-                src={images[imageIndex]}
+            <img
+                src={escapeImages[escapeIndex]}
                 className="imgactive"
-                alt="Penang Hill"
+                alt="Escape Theme Park"
               />
               <div className="whiteboardtext">
-                <p>Penang Hill</p>
+                <p>Escape Theme Park</p>
               </div>
 
               <div className="iconbox">
                 <a
-                  href="https://www.google.com/maps/place/Penang+Hill"
+                  href="https://www.google.com/maps/place/ESCAPE+Penang/@5.4497458,100.2114577,963m/data=!3m2!1e3!4b1!4m6!3m5!1s0x304ac3a45d25df75:0xe55b46784fbcb260!8m2!3d5.4497405!4d100.214038!16s%2Fg%2F1w3sx3lr?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                 >
-                  <FaMapMarkerAlt />
+                  <FaMapMarkerAlt/>
                 </a>
                 <a>
-                <FaPhone />
+                <FaPhone title="017-797 7529 (whatsapp only)"/>
                 </a>
-                <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
+                <a href="mailto:sales@escape.my" target="_blank">
                 <MdOutlineMailOutline />
                 </a>
               </div>
@@ -137,33 +167,65 @@ function App() {
 
 
             <div className="box">
-              <img
-                src={images[imageIndex]}
+            <img
+                src={penangNaturalParkImages[penangNaturalParkIndex]}
                 className="imgactive"
-                alt="Penang Hill"
+                alt="Penang National Park"
               />
               <div className="whiteboardtext">
-                <p>Penang Hill</p>
+                <p>Penang National Park</p>
               </div>
 
               <div className="iconbox">
                 <a
-                  href="https://www.google.com/maps/place/Penang+Hill"
+                  href="https://www.google.com/maps/dir//Pejabat+Taman+Negara+P.+Pinang+jalan+Hassan+Abbas,+11050+George+Town,+Penang/@5.4471367,100.1115903,30821m/data=!3m1!1e3!4m8!4m7!1m0!1m5!1m1!1s0x304aebcd109625ed:0xe48f33317fbd27c1!2m2!1d100.1939923!2d5.4471423?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                 >
                   <FaMapMarkerAlt />
                 </a>
                 <a>
-                <FaPhone />
+                <FaPhone title="04-881 3530"/>
                 </a>
-                <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
+                <a href="mailto:tnpp@wildlife.gov.my" target="_blank">
                 <MdOutlineMailOutline />
                 </a>
               </div>
             </div>
 
-            
+
+            <div className="box">
+            <img
+                src={entopiaImages[entopiaIndex]}
+                className="imgactive"
+                alt="Entopia Butterfly Farm"
+              />
+              <div className="whiteboardtext">
+                <p>Entopia Butterfly Farm</p>
+              </div>
+
+              <div className="iconbox">
+                <a
+                  href="https://www.google.com/maps?rlz=1C1CHBF_enMY982MY982&um=1&ie=UTF-8&fb=1&gl=my&sa=X&geocode=KfN4HKVY6EowMR-L41XkY8x4&daddr=830,+Jalan+Teluk+Bahang,+Teluk+Bahang,+11050+Tanjung+Bungah,+Pulau+Pinang"
+                  target="_blank"
+                >
+                  <FaMapMarkerAlt />
+                </a>
+                <a>
+                <FaPhone title="04-888 8111"/>
+                </a>
+                <a href="mailto:info@entopia.com" target="_blank">
+                <MdOutlineMailOutline />
+                </a>
+              </div>
+            </div>
+
           </div>
+
+          <center>
+           <div class="buttoncontainer">
+        <button class="btnattraction"><span>View More</span></button>
+      </div>
+           </center>
         </section>
         
       </div>

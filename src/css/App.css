@@ -77,29 +77,29 @@ section{
   grid-template-columns: repeat(3,1fr);
 }
 
-/*attraction part*/
+/* May Fen attraction part*/
 
 #attraction{
   
   height: 10000px;
 }
 
-
+#attraction .title{
+  font-size:30px;
+  text-align: center;
+  margin-top: 40px;
+}
 #attraction .boxright{
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3,1fr);
-  padding: 30px 20px;
-  grid-column-gap: 20px;
-  grid-row-gap: 30px;
-   border:1px solid beige;
+  grid-template-columns: repeat(4,1fr);
+  grid-column-gap: 5px;
 }
 #attraction .boxright .box{
   text-align: center;
   display: grid;
   align-items: center;  
-  position: relative;
-  padding: 40px;
+  padding: 20px;
 }
 
 #attraction .boxright .box img{
@@ -111,10 +111,56 @@ section{
   display: none;
 }
 
+#attraction .boxright .whiteboardtext{
+  margin-top: 10px;
+}
 #attraction .boxright .box img.imgactive {
   display: block;
 }
+#attraction .boxright .box .iconbox{
+  margin-top: 10px;
+}
+#attraction .boxright .box .iconbox a{
+  padding: 0px 8px;
+  color: black;
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+#attraction .boxright .box .iconbox a:hover {
+  transform: rotate(360deg);
+  color: #5c5c74;
+}
 
+
+.buttoncontainer .btnattraction{
+  background-color:#3472CA;
+  padding:5px 10px;
+  border-radius: 10px;
+  font-size: 15px;
+  color:white;
+}
+
+.btnattraction span {
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+}
+.btnattraction span::after {/*before and after are same*/
+  content: '\00bb';
+  position: absolute;    
+  top: -1px;
+  opacity: 0;/*不见(先)*/
+  right: -20px;
+  transition: 0.5s;
+}
+.btnattraction:hover span {
+  padding-right: 20px;
+}
+
+.btnattraction:hover span::after {
+  opacity: 1;/*出现(后)*/
+  right: 0;
+}
 @media (max-width:1100px) {
 
   #attraction .boxright {
@@ -134,3 +180,5 @@ section{
   }  
 
 }
+
+/* May Fen attraction part*/
