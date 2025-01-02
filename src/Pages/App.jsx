@@ -130,7 +130,7 @@ function App() {
                 </a>
 
                  <a>
-                <FaPhone title="017-797 7529 (whatsapp only)"/>
+                <FaPhone title="+604 828 8880"/>
                 </a>
 
                 <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
@@ -157,7 +157,7 @@ function App() {
                   <FaMapMarkerAlt/>
                 </a>
                 <a>
-                <FaPhone title="017-797 7529 (whatsapp only)"/>
+                <FaPhone title="+017-797 7529"/>
                 </a>
                 <a href="mailto:sales@escape.my" target="_blank">
                 <MdOutlineMailOutline />
@@ -184,7 +184,7 @@ function App() {
                   <FaMapMarkerAlt />
                 </a>
                 <a>
-                <FaPhone title="04-881 3530"/>
+                <FaPhone title="+04-881 3530"/>
                 </a>
                 <a href="mailto:tnpp@wildlife.gov.my" target="_blank">
                 <MdOutlineMailOutline />
@@ -211,7 +211,7 @@ function App() {
                   <FaMapMarkerAlt />
                 </a>
                 <a>
-                <FaPhone title="04-888 8111"/>
+                <FaPhone title="+604-88 8888"/>
                 </a>
                 <a href="mailto:info@entopia.com" target="_blank">
                 <MdOutlineMailOutline />
