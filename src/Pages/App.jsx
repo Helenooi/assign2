@@ -2,6 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import "../css/App.css";
+
+import { Link } from 'react-router-dom';
+
 import penanghill_1 from "./image_attraction/penanghill_1.jpg";
 import penanghill_2 from "./image_attraction/penanghill_2.jpg";
 import penanghill_3 from "./image_attraction/penanghill_3.jpg";
@@ -130,7 +133,7 @@ function App() {
                 </a>
 
                  <a>
-                <FaPhone title="017-797 7529 (whatsapp only)"/>
+                <FaPhone title="+604 828 8880"/>
                 </a>
 
                 <a href="mailto:inquiries@penanghill.gov.my" target="_blank">
@@ -157,7 +160,7 @@ function App() {
                   <FaMapMarkerAlt/>
                 </a>
                 <a>
-                <FaPhone title="017-797 7529 (whatsapp only)"/>
+                <FaPhone title="+017-797 7529"/>
                 </a>
                 <a href="mailto:sales@escape.my" target="_blank">
                 <MdOutlineMailOutline />
@@ -184,7 +187,7 @@ function App() {
                   <FaMapMarkerAlt />
                 </a>
                 <a>
-                <FaPhone title="04-881 3530"/>
+                <FaPhone title="+04-881 3530"/>
                 </a>
                 <a href="mailto:tnpp@wildlife.gov.my" target="_blank">
                 <MdOutlineMailOutline />
@@ -211,7 +214,7 @@ function App() {
                   <FaMapMarkerAlt />
                 </a>
                 <a>
-                <FaPhone title="04-888 8111"/>
+                <FaPhone title="+604-88 8888"/>
                 </a>
                 <a href="mailto:info@entopia.com" target="_blank">
                 <MdOutlineMailOutline />
@@ -223,7 +226,12 @@ function App() {
 
           <center>
            <div class="buttoncontainer">
-        <button class="btnattraction"><span>View More</span></button>
+      
+           <Link to="/attraction">
+    <button className="btnattraction">
+      <span>View More</span>
+    </button>
+  </Link>
       </div>
            </center>
         </section>
