@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './css/index.css'
 import App from './Pages/App'
 import Homepage from './Pages/homepage'
+import AboutPenang from './Pages/AboutPenang'
 
 /*createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "App",
     element: <App/>,
+  },
+  {
+    path: "AboutPenang",
+    element: <AboutPenang/>,
   }
 ]);
 
