@@ -102,6 +102,42 @@ body{
       width: 100%;
     }
 
+
+    /* Ensure the image container doesn't overlap with the menu */
+.slideshow-container {
+  position: relative;
+  max-width: 100%;
+  margin: auto;
+  z-index: 1; /* Ensures it stays behind navbar */
+  padding-top: 60px; /* Adds space at the top to prevent overlapping the menu */
+}
+
+/* Ensure the attraction image container doesn't overlap */
+.attraction-image-container1 {
+  position: relative; /* Ensures relative positioning */
+  flex: 2;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(193, 189, 189);
+  box-shadow: 2px 2px 5px rgb(67, 40, 40);
+  z-index: 1; /* Ensures it stays behind navbar */
+  padding-top: 60px; /* Add padding to avoid image overlap */
+}
+
+/* Fix the navbar z-index to be higher than image container */
+.navbar {
+  position: relative; /* Relative positioning for navbar */
+  z-index: 100; /* High z-index ensures navbar is on top */
+}
+
+/* Additional container settings for layout management */
+.container {
+  position: relative; /* Keep it in the page flow */
+  z-index: 0; /* Default layer */
+}
+
+
+
     /* Slide-in Animation */
 @keyframes slideIn {
   from {
