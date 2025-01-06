@@ -2,6 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import "../css/App.css";
+
+import { Link } from 'react-router-dom';
+
 import penanghill_1 from "./image_attraction/penanghill_1.jpg";
 import penanghill_2 from "./image_attraction/penanghill_2.jpg";
 import penanghill_3 from "./image_attraction/penanghill_3.jpg";
@@ -223,7 +226,12 @@ function App() {
 
           <center>
            <div class="buttoncontainer">
-        <button class="btnattraction"><span>View More</span></button>
+      
+           <Link to="/attraction">
+    <button className="btnattraction">
+      <span>View More</span>
+    </button>
+  </Link>
       </div>
            </center>
         </section>
