@@ -95,3 +95,7 @@ body.foodPage, html.foodPage {
     max-width: 90%; /* Ensure text doesn’t overflow */
   }
 }
+
+@media (max-width: 496px) {
+
+}

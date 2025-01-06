@@ -122,3 +122,10 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 496px) {
+  .food-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
