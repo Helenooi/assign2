@@ -46,7 +46,7 @@ function App() {
         <section id="Food">
           <h1>Food and Cuisine</h1>
           <br />
-          <div className="articles">
+          <div className="MainPageFoodContainer">
             {foodData.map((food) => (
               <article key={food.id}>
                 <div className="article-wrapper">

@@ -93,7 +93,7 @@ body {
 #Food {
   width: 100%; 
   height: auto; 
-  padding: 50px;
+  padding: 0 0 50px 0;
   box-sizing: border-box; 
 }
 
@@ -169,15 +169,16 @@ article:has(:hover, :focus) {
 }
 
 
-.articles {
+.MainPageFoodContainer {
   display: flex;
   max-width: 1200px;
   margin-inline: auto;
   padding-inline: 24px;
   flex-direction: row;
   gap: 24px;
-
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 @container card (min-width: 380px) {
