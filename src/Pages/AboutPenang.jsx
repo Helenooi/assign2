@@ -1,18 +1,20 @@
-import React from "react";
-import { Helmet } from "react-helmet";
-import { useState, useEffect } from "react";
+import React, {useEffect} from "react";
 import "../css/AboutPenang.css";
 import Navbar from "../components/navbar.jsx";
 
 function AboutPenang(){
+    useEffect(() => {
+        // Add the 'custom-page' class to the body when this component is rendered
+        document.body.classList.add('AboutPenang');
+    
+        // Cleanup: Remove the class when the component is unmounted
+        return () => {
+          document.body.classList.remove('AboutPenang');
+        };
+      }, []);
+
     return(
         <>
-            {/*<Helmet> 
-                <link
-                    rel="stylesheet"
-                    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-                />
-            </Helmet>*/}
             <Navbar/>
             <div className = 'aboutbox'>
                 <input type="radio" id="insightbutton" value="1" name="tractor" defaultChecked/>    

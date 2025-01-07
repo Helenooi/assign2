@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/attraction.css';
 import Navbar from "../components/navbar.jsx";
 
-import 'animate.css';
+//import 'animate.css';
 
 import entopia1 from "./image_attraction/entopia1.jpg";
 import entopia2 from "./image_attraction/entopia2.jpg";
