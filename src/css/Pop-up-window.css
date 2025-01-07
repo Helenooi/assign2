@@ -61,6 +61,7 @@
   background: none;
   filter: grayscale(1);
   cursor: pointer;
+  z-index: 10;
 }
 
 .closeButton:hover {
