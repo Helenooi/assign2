@@ -111,7 +111,7 @@ function App() {
           <br />
           <div className="MainPageFoodContainer">
             {foodData.map((food) => (
-              <article key={food.id}>
+              <article className = "foodarticle" key={food.id}>
                 <div className="article-wrapper">
                   <figure>
                     <img src={food.image} alt={food.title} />

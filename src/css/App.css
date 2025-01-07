@@ -211,7 +211,7 @@ section{
   box-sizing: border-box; 
 }
 
-article {
+.foodarticle {
   --img-scale: 1.001;
   --title-color: black;
   position: relative;
@@ -223,7 +223,7 @@ article {
   overflow: hidden;
 }
 
-article a::after {
+.foodarticle a::after {
   position: absolute;
   inset-block: 0;
   inset-inline: 0;
@@ -232,7 +232,7 @@ article a::after {
 }
 
 /* basic article elements styling */
-article h2 {
+.foodarticle h2 {
   margin: 0 0 18px 0;
   font-family: "Bebas Neue", cursive;
   font-size: 1.9rem;
@@ -248,7 +248,7 @@ figure {
   overflow: hidden;
 }
 
-article img {
+.foodarticle img {
   max-width: 300px;
   transform-origin: center;
   transform: scale(var(--img-scale));
@@ -259,18 +259,18 @@ article img {
   padding: 24px;
 }
 
-article a {
+.foodarticle a {
   display: inline-flex;
   align-items: center;
   text-decoration: none;
   color: #28666e;
 }
 
-article a:focus {
+.foodarticle a:focus {
   outline: 1px dotted #28666e;
 }
 
-article:has(:hover, :focus) {
+.foodarticle:has(:hover, :focus) {
   --img-scale: 1.1;
   --title-color: #28666e;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
