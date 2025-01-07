@@ -52,10 +52,11 @@ header{
 .header2{
     width:100%;
     height:100vh;
-    background-image: url("homepage/background.jpg");
+    background-image: url("homepage/mainbg.jpg");
     background-position: bottom;
     background-size: cover;
     background-blend-mode: darken;
+    margin-top: -80px;
     /*mayfen*/
     position: relative;
     z-index: 0; 
