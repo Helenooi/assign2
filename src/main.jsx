@@ -4,6 +4,8 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom';
 import './css/index.css'
 import App from './Pages/App'
 import Homepage from './Pages/homepage'
+import Attraction from './Pages/attraction'
+import AboutPenang from './Pages/AboutPenang'
 import ChineseFood from './Pages/ChineseFood'
 import MalayFood from './Pages/MalayFood'
 import IndianFood from './Pages/IndianFood'
@@ -25,6 +27,14 @@ const router = createBrowserRouter([
   {
     path: "App",
     element: <App/>,
+  },
+  {
+    path: "attraction",
+    element: <Attraction/>,
+  },
+  {
+    path: "AboutPenang",
+    element: <AboutPenang/>,
   },
   {
     path: "ChineseFood",

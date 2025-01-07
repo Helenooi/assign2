@@ -2,6 +2,7 @@ import "../css/menu.css";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
 
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -24,7 +25,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li>
-                <a href="#contact" className="navbar-button">Penang Attractions</a>
+                <a href="#attraction" className="navbar-button">Penang Attractions</a>
               </li>
               <li>
                 <a href="#Food" className="navbar-button">Food & Cuisine</a>
@@ -47,7 +48,6 @@ const Navbar = () => {
         </div>
       </header>
 
-      <div className="header2"></div>
     </>
   );
 };
