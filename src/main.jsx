@@ -6,6 +6,9 @@ import App from './Pages/App'
 import Homepage from './Pages/homepage'
 import Attraction from './Pages/attraction'
 import AboutPenang from './Pages/AboutPenang'
+import ChineseFood from './Pages/ChineseFood'
+import MalayFood from './Pages/MalayFood'
+import IndianFood from './Pages/IndianFood'
 
 /*createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -32,6 +35,18 @@ const router = createBrowserRouter([
   {
     path: "AboutPenang",
     element: <AboutPenang/>,
+  },
+  {
+    path: "ChineseFood",
+    element: <ChineseFood/>,
+  },
+  {
+    path: "MalayFood",
+    element: <MalayFood/>,
+  },
+  {
+    path: "IndianFood",
+    element: <IndianFood/>,
   }
 ]);
 

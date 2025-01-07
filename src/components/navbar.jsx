@@ -28,7 +28,7 @@ const Navbar = () => {
                 <a href="#attraction" className="navbar-button">Penang Attractions</a>
               </li>
               <li>
-                <a href="#aboutus" className="navbar-button">Food & Cuisine</a>
+                <a href="#Food" className="navbar-button">Food & Cuisine</a>
               </li>
               <li>
                 <a href="#aboutus" className="navbar-button">Events & Festivals</a>

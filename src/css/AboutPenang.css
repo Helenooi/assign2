@@ -12,7 +12,7 @@ html {
     font-weight: 300;
 }
 
-.aboutbox, article, .child-containers, label, * {
+.aboutbox, .insightarticle , .historyarticle , .transportationarticle , .weatherarticle , .preparearticle , .child-containers, label, * {
   text-transform: none;
   font-variant: normal;
 }
@@ -31,7 +31,7 @@ html {
     scrollbar-color: #f9b682 #ffc87c; 
 }
 
-article .insightarticle, .historyarticle, .transportationarticle, .weatherarticle, .preparearticle {
+.insightarticle , .historyarticle , .transportationarticle , .weatherarticle , .preparearticle {
     color: #fff;
     position: absolute;
     left: calc(max(20%, 100px));
@@ -45,7 +45,7 @@ article .insightarticle, .historyarticle, .transportationarticle, .weatherarticl
     transform-origin: center right;
     transition-delay: .1s;
 }
-article:before {
+.insightarticle , .historyarticle , .transportationarticle , .weatherarticle , .preparearticle :before {
     color: rgba(57, 42, 42, 0.2);
     font-size: 4rem;
     font-weight: 100;

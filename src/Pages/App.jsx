@@ -66,13 +66,37 @@ function App() {
     return () => clearInterval(intervalId);
   }, [penangNaturalParkImages.length]);
 
+
+  const foodData = [
+    {
+      id: 1,
+      title: "Chinese Cuisine",
+      description: "This is about Chinese Food.",
+      image: "/homepage/chinese food preview in main page.jpg",
+      link: "/ChineseFood",
+    },
+    {
+      id: 2,
+      title: "Malay Cuisine",
+      description: "This is about Malay Food.",
+      image: "/homepage/malay food preview in main page.jpg",
+      link: "/MalayFood",
+    },
+    {
+      id: 3,
+      title: "Indian Cuisine",
+      description: "This is about Indian Food.",
+      image: "/homepage/indian food preview in main page.jpg",
+      link: "/IndianFood",
+    },
+  ];
+
   return (
     <>
       <Navbar />
 
-      <div className="header2">
+      <img class="hero" src="homepage/background.jpg" />
 
-</div>
       <div className="section">
         <section id="homepage">
           <h1>section1</h1>
@@ -82,8 +106,28 @@ function App() {
           <h1>section2</h1>
         </section>
 
-        <section id="aboutus">
-          <h1>section3</h1>
+        <section id="Food">
+          <h1>Food and Cuisine</h1>
+          <br />
+          <div className="MainPageFoodContainer">
+            {foodData.map((food) => (
+              <article className = "foodarticle" key={food.id}>
+                <div className="article-wrapper">
+                  <figure>
+                    <img src={food.image} alt={food.title} />
+                  </figure>
+                  <div className="article-body">
+                    <h2>{food.title}</h2>
+                    <p>{food.description}</p>
+                    <br />
+                    <a href={food.link} className="read-more">
+                      Read more
+                    </a>
+                  </div>
+                </div>
+              </article>
+            ))}
+          </div>
         </section>
 
         <section id="cultureHeritage">

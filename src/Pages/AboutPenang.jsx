@@ -34,14 +34,14 @@ function AboutPenang(){
                     <label for="preparebutton" >Preparation</label>
                 </nav>
   
-                <article class='insightarticle'>
+                <article className="insightarticle">
                     <h2>
                     <img src={'AboutPenang/intro.jpg'} alt="" />
                     </h2>                    
                     <p>Penang is one of the states in Malaysia located on the northwest coast of Peninsular Malaysia with its capital George Town, located on Penang Island. Penang is a special state in Malaysia because it consists of two parts which are Penang Island and Seberang Perai. Penang is a thriving vacation destination with many cultural sights and natural sceneries listed as UNESCO World Heritage Site. It is a must-visit destination when traveling to Malaysia, and it offers a variety of iconic dishes from different cultural heritages. This has also made Penang another name, the food lover’s paradise in Malaysia. </p>
                 </article>
   
-                <article class='historyarticle'>
+                <article className="historyarticle">
                     <h2>
                     <img src={'AboutPenang/history.jpg'} alt="" />
                     </h2>  
@@ -49,7 +49,7 @@ function AboutPenang(){
                     <p>In 1948, Penang became part of the Federation of Malaya together with Johor, Kedah, Kelantan, Malacca, Negeri Sembilan, Pahang, Penang, Perak, Perlis, Selangor and Terengganu. On 31 August 1957, the Federation of Malaya gained independence from British rule, marking the birth of a new nation. In 1963, the Federation of Malaya expanded to include Sabah, Sarawak, and Singapore to form Malaysia. However, Singapore was separated from Malaysia in 1965, leaving the remaining states to continue as Malaysia until the present day. </p>
                 </article>
   
-                <article class='transportationarticle'>
+                <article className="transportationarticle">
                     <h2>
                     <img src={'AboutPenang/transportation.jpg'} alt="" />
                     </h2>                    
@@ -80,14 +80,14 @@ function AboutPenang(){
                     <p>Exploring Penang by bicycle or motorbike is economical and enjoyable, especially for adventurers who want to experience the island’s charm up close. Bicycle rental services are abundant in George Town and along Batu Ferringhi, offering travelers a chance to explore at a leisurely pace. For those who prefer motorbikes, rental shops provide affordable options for zipping around the island. Bike-sharing systems also operate in urban areas, making picking up and dropping off bikes at designated stations easy. This mode of transport is perfect for short distances, allowing travelers to appreciate Penang’s scenic views and vibrant streets.</p>
                 </article>
   
-                <article class='weatherarticle'>
+                <article className="weatherarticle">
                     <h2>
                     <img src={'AboutPenang/sunny.jpg'} alt="" />
                     </h2>  
                     <p>Penang experiences a tropical rainforest climate characterized by warm temperatures ranging from 24 to 32 degree Celsius and high humidity throughout the year. Penang weather is slightly different depending on the monsoon season, which is the Southwest Monsoon and Northeast Monsoon. The Southwest Monsoon starts from May to September bringing a drier condition while the Northeast Monsoon starts from November to March bringing heavier rainfall. The best time to visit Penang is between April and August because of its comfortable weather and minimal rainfall.</p>
                 </article>
 
-                <article class='preparearticle'>
+                <article className="preparearticle">
                     <h2>
                     <img src={'AboutPenang/prepare.jpg'} alt="" />
                     </h2>                      
