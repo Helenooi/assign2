@@ -95,7 +95,7 @@ function App() {
     <>
       <Navbar />
 
-      <img class="hero" src="homepage/background.jpg" />
+      <img class="hero" src="homepage/mainbg.jpg" />
 
       <div className="section">
         <section id="homepage">
