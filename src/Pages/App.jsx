@@ -94,6 +94,7 @@ function App() {
   return (
     <>
       <Navbar />
+
       <img class="hero" src="homepage/mainbg.jpg" />
 
       <div className="section">
