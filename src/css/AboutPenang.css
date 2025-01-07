@@ -33,6 +33,7 @@ html {
 
 .insightarticle , .historyarticle , .transportationarticle , .weatherarticle , .preparearticle {
     color: #fff;
+
     position: absolute;
     left: calc(max(20%, 100px));
     top: 0;
@@ -45,7 +46,7 @@ html {
     transform-origin: center right;
     transition-delay: .1s;
 }
-.insightarticle , .historyarticle , .transportationarticle , .weatherarticle , .preparearticle :before {
+.insightarticle :before , .historyarticle :before , .transportationarticle :before , .weatherarticle :before , .preparearticle :before {
     color: rgba(57, 42, 42, 0.2);
     font-size: 4rem;
     font-weight: 100;
@@ -53,14 +54,14 @@ html {
     bottom: 1rem;
     right: 1rem;
 }
-h2 {
+.abouth2 {
     font-size: 2.5rem;
     font-weight: 600;
     text-align: center;
     color: rgba(0,0,0,.6);
 }
-body > h2 {height: auto;}
-h2 img {
+body > .abouth2 {height: auto;}
+.abouth2 img {
     width: 90%;
     max-width: 25rem;
     height: 10%;
@@ -73,12 +74,18 @@ h2 img {
 }
 .insightarticle p, .historyarticle p,.transportationarticle p, .weatherarticle p, .preparearticle p{
     margin-bottom: 15px;
+    font-size: 16px;
+    color: white;
 }
 .transportationarticle h4{
   margin-top: 15px;
+  color: white;
+  font-size: 20px;
 }
 .transportationarticle h3{
   margin-top: 20px;
+  color: white;
+  font-size: 25px;
 }
 
 .linkbutton{
@@ -174,7 +181,8 @@ a {color: rgba(0,0,0,.4)}
 a:hover {color: rgba(0,0,0,.2)}
 
 body.AboutPenang{
-    background-color: #e6e5c1;
+    background-color: #e6e5c1 !important;
+    overflow: hidden;
 }
 
 * {

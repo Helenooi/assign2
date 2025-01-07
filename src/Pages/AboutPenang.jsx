@@ -35,14 +35,14 @@ function AboutPenang(){
                 </nav>
   
                 <article className="insightarticle">
-                    <h2>
+                    <h2 className="abouth2">
                     <img src={'AboutPenang/intro.jpg'} alt="" />
                     </h2>                    
                     <p>Penang is one of the states in Malaysia located on the northwest coast of Peninsular Malaysia with its capital George Town, located on Penang Island. Penang is a special state in Malaysia because it consists of two parts which are Penang Island and Seberang Perai. Penang is a thriving vacation destination with many cultural sights and natural sceneries listed as UNESCO World Heritage Site. It is a must-visit destination when traveling to Malaysia, and it offers a variety of iconic dishes from different cultural heritages. This has also made Penang another name, the food lover’s paradise in Malaysia. </p>
                 </article>
   
                 <article className="historyarticle">
-                    <h2>
+                    <h2 className="abouth2">
                     <img src={'AboutPenang/history.jpg'} alt="" />
                     </h2>  
                     <p>Before British colonization, Penang was part of the Sultanate of Kedah. In 1786, Francis Light from the British East India Company secured Penang island from the Sultan of Kedah through a treaty. Under British settlement, Penang Island was called Prince of Wales Island and became part of the Straits Settlements together with Singapore and Malacca in 1826. Seberang Perai was also incorporated into the British colony by acting as a base for Penang Island. Seberang Perai plays a significant role by providing agriculture and also acting as a trade route connecting Penang Island to the mainland. </p>
@@ -50,7 +50,7 @@ function AboutPenang(){
                 </article>
   
                 <article className="transportationarticle">
-                    <h2>
+                    <h2 className="abouth2">
                     <img src={'AboutPenang/transportation.jpg'} alt="" />
                     </h2>                    
                     <h3><b>TRAVEL TO PENANG</b></h3>
@@ -81,14 +81,14 @@ function AboutPenang(){
                 </article>
   
                 <article className="weatherarticle">
-                    <h2>
+                    <h2 className="abouth2">
                     <img src={'AboutPenang/sunny.jpg'} alt="" />
                     </h2>  
                     <p>Penang experiences a tropical rainforest climate characterized by warm temperatures ranging from 24 to 32 degree Celsius and high humidity throughout the year. Penang weather is slightly different depending on the monsoon season, which is the Southwest Monsoon and Northeast Monsoon. The Southwest Monsoon starts from May to September bringing a drier condition while the Northeast Monsoon starts from November to March bringing heavier rainfall. The best time to visit Penang is between April and August because of its comfortable weather and minimal rainfall.</p>
                 </article>
 
                 <article className="preparearticle">
-                    <h2>
+                    <h2 className="abouth2">
                     <img src={'AboutPenang/prepare.jpg'} alt="" />
                     </h2>                      
                     <h4><b>Outfit</b></h4>

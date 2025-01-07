@@ -199,6 +199,7 @@ section{
     background-position: bottom;
     background-size: cover;
     background-blend-mode: darken;
+    margin-top: -80px;
 }
 
 
