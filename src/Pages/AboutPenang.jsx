@@ -6,10 +6,13 @@ function AboutPenang(){
     useEffect(() => {
         // Add the 'custom-page' class to the body when this component is rendered
         document.body.classList.add('AboutPenang');
+        const inputs = document.querySelectorAll("input");
+        inputs.forEach(input => input.classList.add("aboutinput"));
     
         // Cleanup: Remove the class when the component is unmounted
         return () => {
           document.body.classList.remove('AboutPenang');
+          inputs.forEach(input => input.classList.remove("aboutinput"));
         };
       }, []);
 
