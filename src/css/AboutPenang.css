@@ -175,6 +175,7 @@ a:hover {color: rgba(0,0,0,.2)}
 
 body.AboutPenang{
     background-color: #e6e5c1;
+    overflow: hidden;
 }
 
 * {
