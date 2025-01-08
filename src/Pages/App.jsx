@@ -105,10 +105,13 @@ function App() {
           <h2 className = "herotitle">Unlock The Secrets Of Penang</h2>
         </section>
         <section id="about">
-          <h1>About Penang</h1>
-          <article className="aboutarticle">
-            Penang, Malaysia's "Pearl of the Orient," blends history, culture, and nature. George Town, a UNESCO World Heritage Site, showcases colonial architecture and vibrant street art. The island is famed for its world-class cuisine, including char kway teow and Penang laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich cultural tapestry that makes Penang truly unforgettable.
-          </article>
+          <img className="abt" src = "homepage/aboutbg.jpg"/> 
+          <div className = "abtdiv">
+            <h1>About Penang</h1>
+            <article className="aboutarticle">
+              Penang, Malaysia's "Pearl of the Orient," blends history, culture, and nature. George Town, a UNESCO World Heritage Site, showcases colonial architecture and vibrant street art. The island is famed for its world-class cuisine, including char kway teow and Penang laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich cultural tapestry that makes Penang truly unforgettable.
+            </article>
+          </div>
           <div className = "buttonpage">
             <Link to="/AboutPenang">
               <button className = "aboutbutton">Explore More</button>

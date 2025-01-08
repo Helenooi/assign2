@@ -75,23 +75,29 @@ body > .abouth2 {height: auto;}
 .insightarticle p, .historyarticle p,.transportationarticle p, .weatherarticle p, .preparearticle p{
     margin-bottom: 15px;
     font-size: 16px;
-    color: white;
+    color: rgb(146, 60, 60);
     font-family: 'Salsa', serif;
 }
 .transportationarticle h4{
   margin-top: 15px;
-  color: white;
+  color: rgb(146, 60, 60);
+  font-family: 'Salsa', serif;
+  font-size: 20px;
+}
+.preparearticle h4{
+  margin-top: 15px;
+  color: rgb(146, 60, 60);
   font-family: 'Salsa', serif;
   font-size: 20px;
 }
 .transportationarticle bu{
-  color: white;
+  color: rgb(146, 60, 60);
   font-family: 'Salsa', serif;
   font-size: 16px;
 }
 .transportationarticle h3{
   margin-top: 20px;
-  color: white;
+  color: rgb(146, 60, 60);
   font-family: 'Salsa', serif;
   font-size: 25px;
 }
@@ -100,7 +106,6 @@ body > .abouth2 {height: auto;}
   display: inline-block;
   padding: 3px 15px;
   font-size: 16px;
-  color: #fff;
   background-color: #f3b45b;
   border-radius: 20px;
   cursor: pointer;
@@ -135,7 +140,7 @@ label {
     height: 20%;
     float: none;
     font-family: "Acme", serif;
-    color: #ffffff;
+    color: rgb(146, 60, 60);
     text-align: center;
     cursor: pointer;
     padding: 1rem;
@@ -157,7 +162,7 @@ label:before {
 #transportbutton:checked ~ .AboutNav [for='transportbutton'],
 #weatherbutton:checked ~ .AboutNav [for='weatherbutton'],
 #preparebutton:checked ~ .AboutNav [for='preparebutton'] {
-    color: #ffffff;
+    color: rgb(146, 60, 60);
     font-weight: 600;
 }
 #insightbutton:checked ~ .AboutNav:after {

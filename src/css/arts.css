@@ -18,6 +18,9 @@
   margin-top: -80px;
 }
 
+#my-page body, #my-page body::before {
+  color: white;
+}
 
 
 @font-face {
@@ -98,7 +101,7 @@ h1 {
 /*The Galery*/
 .gallery {
   --s: 130px; /* control the size of the images */
-  
+  cursor: pointer;
   display: grid;
   gap: 5px;
   position: relative;

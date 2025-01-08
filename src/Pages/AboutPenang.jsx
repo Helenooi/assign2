@@ -91,13 +91,13 @@ function AboutPenang(){
                     <h2 className="abouth2">
                     <img src={'AboutPenang/prepare.jpg'} alt="" />
                     </h2>                      
-                    <h4><b>Outfit</b></h4>
+                    <h4>Outfit</h4>
                     <p>The right clothing is essential due to the tropical climate in Penang. Short-sleeved shirts, shorts, or lightweight dresses are suitable for daytime activities to keep your body cool on a sunny day. For rainy days, especially during the monsoon season (November to March), an umbrella or a waterproof jacket is important to keep you dry and comfortable while exploring Penang without disruption. If you are going to visit places of worship, make sure that you dress modestly and respectfully. </p>
-                    <h4><b>Communication</b></h4>
+                    <h4>Communication</h4>
                     <p>Malay is the official language of Malaysia but most of the locals are also proficient in English. Although English is sufficient for most situation but sometimes local languages such as Mandarin and Malay could help you to engage with the community and also enhance your experience. “Terima Kasih” (Malay) and “Xie Xie” (Mandarin) which means “Thank You” are one of the useful phrases to use here. </p>
-                    <h4><b>Health and Safety</b></h4>
+                    <h4>Health and Safety</h4>
                     <p>A small first-aid kit can help you to enjoy your vacation without any worries or concerns. Basic supplies like plasters, antiseptic cream, and medication for headaches and stomachaches should be included in the first-aid kit. Insect-repellent patches are also essential especially during the rainy season or during the evening as there will be many mosquitoes that may spread diseases such as dengue fever. If there is an emergency case, call 999 for help. </p>
-                    <h4><b>Electronics and Connectivity</b></h4>
+                    <h4>Electronics and Connectivity</h4>
                     <p>Take note that the electrical supply in Malaysia is between 220 to 240 volts. Other than that, make sure that you bring the necessary adapters to charge your device, as Malaysia uses type G socket adapters. If you are traveling internationally, a local SIM card or international roaming plan can be purchased to get affordable calls and data so that you can get connected although you are outdoors. No worries if you do not have both of these as most of the hotels and restaurants in Penang will provide free Wi-Fi for their customers. </p>
                 </article>
             </div>
