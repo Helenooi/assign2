@@ -378,7 +378,7 @@ figure {
 
 .aboutbutton{
   margin-top: 1rem;
-  margin-left: -123%;
+  transform: translateX(-123%);
   width: 20vw;
   padding: 12px 24px;
   background: #f6ea82;
@@ -395,5 +395,5 @@ figure {
 
 .aboutbutton:hover {
   background-color: #dfd46e;
-  transform: scale(1.05); 
+  transform: scale(1.05) translateX(-118%); 
 }
