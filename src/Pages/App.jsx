@@ -7,6 +7,8 @@ function App() {
     <>
       <Navbar />
 
+      <img class="hero" src="homepage/background.jpg" />
+
       <div className="section">
         <section id="homepage">
           <h1>section1</h1>
@@ -24,23 +26,36 @@ function App() {
           <h1>Culture & Heritage</h1>
           <br></br>
           <div class="container-culture">
-            <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/Cat_plotting_something_evil%21.jpg"></img>
-              <div class="card__head">Plotting Cat</div>
+            <div class="card" href="">
+              <a href="/Multiracial">
+                <img src="homepage/multiracial.jpg"></img>
+              </a>
+              <div class="card__head">Multi-Racial</div>
             </div>
             <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/False_alarm_-a.jpg/1280px-False_alarm_-a.jpg"></img>
-              <div class="card__head">Angry Cat</div>
+              <a href="/Arts">
+                <img src="homepage/art1.avif" alt="Description of image" />
+              </a>
+              <div class="card__head">Traditional Arts</div>
             </div>
             <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Neugierige-Katze.JPG/1280px-Neugierige-Katze.JPG"></img>
-              <div class="card__head">Curious Cat</div>
+              <a href="/HeritageSites">
+                <img src="homepage/HeritageSites.avif"></img>
+              </a>
+              <div class="card__head">Heritage Sites</div>
             </div>
             <div class="card">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Al_acecho_%289272124788%29.jpg/1280px-Al_acecho_%289272124788%29.jpg"></img>
-              <div class="card__head">Prowling Cat</div>
+              <a href="/HeritageConservation">
+                <img src="homepage/HeritageConservation3.jpg"></img>
+              </a>
+              <div class="card__head">Heritage Conservation</div>
             </div>
-            
+            <div class="card">
+              <a href="/SacredSpace">
+                <img src="homepage/sacredSpace.webp"></img>
+              </a>
+              <div class="card__head">Sacred Spaces</div>
+            </div>
           </div>
         </section>
       </div>

@@ -14,7 +14,9 @@ const Navbar = () => {
         <div className="container">
           <nav>
             <div className="logo">
-              <img src='homepage/logo.png' class='logo-size'></img>
+              <a href="/app">
+                <img src='homepage/logo.png' class='logo-size'></img>
+              </a>
             </div>
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
