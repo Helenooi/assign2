@@ -1,6 +1,6 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { createBrowserRouter, RouterProvider} from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate} from 'react-router-dom';
 import './css/index.css'
 import App from './Pages/App'
 import Homepage from './Pages/homepage'
@@ -20,6 +20,10 @@ import IndianFood from './Pages/IndianFood'
 // Me add
 
 const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Navigate to="App" />
+  },
   {
     path: "homepage",
     element: <Homepage/>,
