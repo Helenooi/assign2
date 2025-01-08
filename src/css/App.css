@@ -267,13 +267,13 @@ section{
   transition: color 0.3s ease-out;
   text-align: left;
 }
-/* Mervyn commented here
-figure {
+
+.food-figure {
   margin: 0;
   padding: 0;
   aspect-ratio: 16 / 9;
   overflow: hidden;
-}*/
+}
 
 .foodarticle img {
   max-width: 300px;

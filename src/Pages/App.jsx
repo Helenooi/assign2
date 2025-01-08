@@ -128,7 +128,7 @@ function App() {
               <article className="foodarticle" key={food.id}>
                 <a href={food.link} className="article-link">
                   <div className="article-wrapper">
-                    <figure>
+                    <figure class="food-figure">
                       <img src={food.image} alt={food.title} />
                     </figure>
                     <div className="article-body">
