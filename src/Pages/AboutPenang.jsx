@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import "../css/AboutPenang.css";
-import Navbar from "../components/navbar.jsx";
+import NavbarLanding from "../components/navbarLanding.jsx";
 
 function AboutPenang(){
     useEffect(() => {
@@ -18,7 +18,7 @@ function AboutPenang(){
 
     return(
         <>
-            <Navbar/>
+            <NavbarLanding/>
             <div className = 'aboutbox'>
                 <input type="radio" id="insightbutton" value="1" name="tractor" defaultChecked/>    
                 <input type="radio" id="historybutton" value="2" name="tractor" />      

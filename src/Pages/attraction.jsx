@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import '../css/attraction.css';
-import Navbar from "../components/navbar.jsx";
+import NavbarLanding from "../components/navbarLanding.jsx";
 
 //import 'animate.css';
 
@@ -189,7 +189,7 @@ export const Attraction = () => {
 
   return (
     <div>
-      <Navbar />
+      <NavbarLanding />
       <div style={{ marginTop: "100px" }}>
         <input
           type="text"

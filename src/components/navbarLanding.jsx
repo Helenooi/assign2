@@ -1,6 +1,10 @@
 import "../css/menu.css";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
+import { HashLink } from 'react-router-hash-link';
+
+
+
 
 const NavbarLanding = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,21 +25,19 @@ const NavbarLanding = () => {
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
               <li>
-                <a href="/app#about" className="navbar-button">
-                  About
-                </a>
+                <HashLink smooth to="/app#about" className="navbar-button">About</HashLink>
               </li>
               <li>
-                <a href="/app#contact" className="navbar-button">Penang Attractions</a>
+                <HashLink smooth to="/app#attraction" className="navbar-button">Penang Attractions</HashLink>
               </li>
               <li>
-                <a href="/app#aboutus" className="navbar-button">Food & Cuisine</a>
+                <HashLink smooth to="/app#Food" className="navbar-button">Food & Cuisine</HashLink>
               </li>
               <li>
-                <a href="/app#aboutus" className="navbar-button">Events & Festivals</a>
+                <HashLink smooth to="/app#aboutus" className="navbar-button">Events & Festivals</HashLink>
               </li>
               <li>
-                <a href="/app#cultureHeritage" className="navbar-button">Culture & Heritage</a>
+                <HashLink smooth to="/app#cultureHeritage" className="navbar-button">Culture & Heritage</HashLink>
               </li>
             </ul>
 

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Papa from "papaparse";
 import FoodList from "../components/foodList";
-import Navbar from "../components/navbar";
+import NavbarLanding from "../components/navbarLanding";
 import "../css/FoodPage.css";
 
 const ChineseFood = () => {
@@ -30,7 +30,7 @@ const ChineseFood = () => {
 
   return (
     <>
-      <Navbar />
+      <NavbarLanding />
       <div className="FoodPageImageContainerWrapper">
         <img
           className="FoodPageImageContainer"
