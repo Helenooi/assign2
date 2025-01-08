@@ -20,9 +20,7 @@ const Navbar = () => {
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
               <li>
-                <a href="#homepage" className="navbar-button">
-                  About
-                </a>
+                <a href="#about" className="navbar-button">About</a>
               </li>
               <li>
                 <a href="#attraction" className="navbar-button">Penang Attractions</a>

@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 /* Solve the black line for seperate section */
 section {
-  margin: 0;
   padding: 0;
   border: none;
 }
@@ -194,14 +197,34 @@ section{
 
 /* May Fen attraction part*/
 .hero {
-  width:100%;
+    width:100%;
     height:100vh;
     background-position: bottom;
     background-size: cover;
     background-blend-mode: darken;
     margin-top: -80px;
+    position: relative;
+    z-index: 0;
 }
 
+#intro {
+  position: relative;
+  max-width: 100vw;
+}
+
+#intro h2{
+  font-family:"DM Serif Display", serif;
+  font-size: 6vw;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  text-align: right;
+  margin-top: 20px;
+  position: absolute;
+  top: 0%;
+  right: 3%;
+  left: 70%;
+  z-index: 1;
+}
 
 
 /*below is Jun Kit Part*/
@@ -316,4 +339,48 @@ figure {
     aspect-ratio: 1;
     object-fit: cover;
   }
+}
+
+
+/*below is Hong Jack Part*/
+#about{
+  display: flex;
+  flex-direction: column;
+  margin-top: -80px;
+  align-items: left;
+  justify-content: center;
+}
+#about h1{
+  font-family: 'Lobster',cursive;
+  z-index: 1;
+  margin-left: 10%;
+  color: #7e7522;
+}
+
+.aboutarticle{
+  margin-left: 8%;
+  margin-top: -25px;
+  display: block;
+  padding: 30px;
+  width: 40vw;
+  font-size: 20px;
+  font-family: 'Kalam',cursive;
+  max-width: 1000px;
+  color: #000000;
+  position: relative;
+  border-radius: 16px;
+  box-shadow: none;
+  background: #f6ea82;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.aboutbutton{
+  margin-top: 1rem;
+  margin-left: 18%;
+  width: 20vw;
+  background: #f6ea82;
+  font-family: 'Kalam',cursive;
+  color: #000000;
+  border-radius: 30px;
 }
