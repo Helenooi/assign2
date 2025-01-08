@@ -5,7 +5,7 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
-body, html {
+#my-page , #my-page body, #my-page html {
   background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%) !important;
   opacity: 1 !important;
 
@@ -14,6 +14,8 @@ body, html {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: hidden;
+
+  margin-top: -80px;
 }
 
 
@@ -168,6 +170,9 @@ h1 {
   z-index: 1;
 
   --bg-image: url('');
+  background-image: var(--bg-image, none); /* Use the CSS variable */
+  background-size: cover; /* Optional, to ensure the background covers the entire area */
+  background-position: center; /* Optional, to center the background image */
 }
 
 .first-box-figure::after {
@@ -865,40 +870,6 @@ h1 {
   .categories__title {
     font-size: 1.1rem;
   }
-}
-
-/* Styling the scroll box */
-.scroll-box {
-  height: 800px;  /* Height is 20% of the viewport height */
-  width: 60%;    /* Width is 60% of the viewport width */
-  max-width: 90%; /* Ensure it doesn't get too wide on large screens */
-  min-width: 250px; /* Set a minimum width so it doesn't shrink too small */
-  overflow: auto;
-  background-color: yellowgreen;
-  color: white;
-  font-family: sans-serif;
-  padding: 10px;
-  border-radius: 8px; /* Optional: rounded corners for aesthetics */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: adding shadow for visual appeal */
-  margin: 0 auto; /* Center the box horizontally */
-  margin-bottom: 200px;
-
-  padding:20px 10px 0px 10px;
-}
-
-
-/* For modern browsers, you can customize the scrollbar */
-.scroll-box::-webkit-scrollbar {
-  width: 12px;
-}
-
-.scroll-box::-webkit-scrollbar-track {
-  background: gold;
-}
-
-.scroll-box::-webkit-scrollbar-thumb {
-  background: darkgreen;
-  border-radius: 10px;
 }
 
 .space-box {

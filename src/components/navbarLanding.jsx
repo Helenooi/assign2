@@ -21,7 +21,7 @@ const NavbarLanding = () => {
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
               <li>
-                <a href="/app#homepage" className="navbar-button">
+                <a href="/app#about" className="navbar-button">
                   About
                 </a>
               </li>

@@ -46,6 +46,7 @@ function HeritageConservation() {
   return (
     <>
       <NavbarLanding />
+      <div id="my-page">
       <div className="first-box">
         <div className="left-content">
           <h1 className="grays1">Heritage Conservation</h1>
@@ -113,6 +114,7 @@ function HeritageConservation() {
             <p>No data available</p>
           )}
         </div>
+      </div>
       </div>
 
       <div class="space-box"></div>

@@ -55,6 +55,7 @@ function Multiracial() {
   return (
     <>
       <NavbarLanding />
+      <div id="my-page">
       <div className="first-box">
         <div className="left-content">
           <h1 className="grays">Multiracial</h1>
@@ -137,79 +138,6 @@ function Multiracial() {
         </div>
       </div>
 
-      <div class="scroll-box">
-        <strong></strong>
-        The multi-racial statue of Malaysia stands as a powerful and enduring
-        symbol of the country's diverse cultural tapestry, a testament to the
-        harmonious coexistence of multiple ethnic groups that have shaped
-        Malaysia's identity over the centuries. This statue celebrates the
-        contributions and significance of the Malay, Chinese, Indian, and
-        indigenous communities, each playing an integral role in Malaysia’s
-        development and national character. The origins of Malaysia's
-        multicultural society trace back to its earliest history, where the
-        region was a crossroads for trade routes connecting Asia with the rest
-        of the world. This gave rise to a rich cultural exchange, with the early
-        Malay Sultanates laying the foundation of the nation. The Malay people,
-        with their distinct customs, language, and traditions, formed the
-        bedrock of Malaysian society. Islam, which arrived through traders from
-        the Middle East, became a core part of the Malay identity, influencing
-        cultural practices, art, and architecture. As trade flourished in the
-        region, especially between the 15th and 19th centuries, the arrival of
-        immigrants from China and India introduced new cultural, religious, and
-        economic influences. Chinese traders, merchants, and miners came to
-        Malaysia, bringing with them the rich traditions of Confucianism,
-        Buddhism, and Taoism. Indian immigrants, many of whom were brought over
-        by the British to work on plantations, added to the cultural mix with
-        their own diverse religious and cultural traditions, including Hinduism,
-        Sikhism, and Islam. The influence of these two groups was particularly
-        notable in Malaysia's economy, as Chinese merchants dominated trade and
-        the Indian community contributed to the development of industries such
-        as rubber and tin mining. The colonial era, marked by British rule,
-        further intensified Malaysia's racial diversity. The British brought in
-        labor from India and China, while local Malays were integrated into the
-        agricultural and military sectors. Over time, the different ethnic
-        groups began to settle into specific occupations and regions, creating
-        distinct cultural communities within the larger society. However,
-        despite their differences, these groups began to establish strong
-        connections, creating the foundation for Malaysia's unique multicultural
-        identity. When Malaysia achieved independence in 1957, it was a moment
-        of great significance for all Malaysians, as they sought to build a new,
-        united nation. The country's leaders, aware of the racial and ethnic
-        diversity, worked to create a system of governance that would recognize
-        and protect the interests of all communities. The Federal Constitution
-        enshrined the rights of each race while promoting unity, peace, and
-        respect for one another. This vision of unity amid diversity became
-        central to Malaysia's national ethos, with the motto “Unity in
-        Diversity” encapsulating the spirit of the nation. The multi-racial
-        statue is not merely an artistic creation but a reflection of the ideals
-        that underpin Malaysia's development. It represents the shared values of
-        tolerance, respect, and cooperation, highlighting how the nation's
-        different ethnic groups live side by side, each contributing their
-        unique traditions, arts, cuisines, languages, and customs. These diverse
-        cultural expressions are celebrated through festivals, cultural
-        exchanges, and public celebrations, where Malaysians come together to
-        appreciate and learn from each other's heritage. As a country, Malaysia
-        has encountered challenges in managing its multi-ethnic society, from
-        tensions between the races to political and economic inequalities.
-        However, the nation's commitment to maintaining social cohesion and
-        harmony has been a guiding principle in overcoming these challenges. The
-        multi-racial statue stands as a visual reminder of the strength that
-        comes from diversity and the importance of fostering an environment
-        where people from all backgrounds can thrive together. Over the decades,
-        Malaysia has evolved into a thriving nation that proudly celebrates its
-        multicultural heritage. The multi-racial statue has become an iconic
-        landmark, not only representing the past but also looking toward the
-        future. It symbolizes the collective hope of a country that continues to
-        build bridges between its diverse communities, focusing on what unites
-        them rather than what divides them. Today, the multi-racial statue
-        remains an enduring tribute to the vision of Malaysia's founders and the
-        generations of Malaysians who have worked to make the dream of a united,
-        harmonious society a reality. It stands as a beacon of hope for future
-        generations, reminding them that the strength of Malaysia lies in its
-        diversity, and that by embracing each other's differences, the nation
-        will continue to prosper and grow in peace and unity.
-      </div>
-
       <div class="space-box"></div>
 
       <dialog id="dialog" className="custom-dialog" ref={dialogRef}>
@@ -286,6 +214,7 @@ function Multiracial() {
           ❌
         </button>
       </dialog>
+      </div>
     </>
   );
 }

@@ -55,6 +55,7 @@ function Arts() {
   return (
     <>
       <NavbarLanding />
+      <div id="my-page">
       <div className="first-box">
         <div className="left-content">
           <h1 className="grays">Traditional Arts</h1>
@@ -196,6 +197,7 @@ function Arts() {
           ❌
         </button>
       </dialog>
+      </div>
     </>
   );
 }

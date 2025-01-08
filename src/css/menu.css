@@ -11,14 +11,19 @@
   text-transform: capitalize;
   transition: all 0.2s linear;
 }
-body {
-  background: no-repeat center center cover;
-  min-height: 100vh;
-  position: relative;
-  background-position: bottom;
-  background-size: cover;
-  font-family: "josefin sans";
-  background-color: rgba(0, 0, 0, 0.7);
+body{
+    background:  no-repeat center center cover;
+    min-height: 100vh;
+    position: relative;
+    background-position: bottom;
+    background-size: cover;
+    font-family: "josefin sans";
+    background-color: rgba(0,0,0,0.7);
+
+    /*mayfen*/
+ 
+        padding-top: 80px;
+    
 }
 
 body::before {
@@ -42,7 +47,7 @@ header {
   top: 0px;
   left: 0px;
   width: 100%;
-  z-index: 5; /* Set a high z-index to ensure it's above other content */
+  z-index: 5; /* Se/*Here*t a high z-index to ensure it's above other content */
 }
 
 .container {

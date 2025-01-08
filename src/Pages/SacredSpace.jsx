@@ -55,6 +55,7 @@ function SacredSpace() {
   return (
     <>
       <NavbarLanding />
+      <div id="my-page">
       <div className="first-box">
         <div className="left-content">
           <h1 className="grays">Sacred Space</h1>
@@ -196,6 +197,7 @@ function SacredSpace() {
           ❌
         </button>
       </dialog>
+      </div>
     </>
   );
 }
