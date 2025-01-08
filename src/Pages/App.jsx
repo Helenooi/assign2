@@ -1,6 +1,7 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
+import Footer from "../components/footer.jsx";
 import "../css/App.css";
 
 import { Link } from "react-router-dom";
@@ -101,17 +102,22 @@ function App() {
       <Navbar />
       <div className="section">
         <section id="intro">
-          <img class="hero" src="homepage/mainbg.jpg"/>
-          <h2 className = "herotitle">Unlock The Secrets Of Penang</h2>
+          <img class="hero" src="homepage/mainbg.jpg" />
+          <h2 className="herotitle">Unlock The Secrets Of Penang</h2>
         </section>
         <section id="about">
           <h1>About Penang</h1>
           <article className="aboutarticle">
-            Penang, Malaysia's "Pearl of the Orient," blends history, culture, and nature. George Town, a UNESCO World Heritage Site, showcases colonial architecture and vibrant street art. The island is famed for its world-class cuisine, including char kway teow and Penang laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich cultural tapestry that makes Penang truly unforgettable.
+            Penang, Malaysia's "Pearl of the Orient," blends history, culture,
+            and nature. George Town, a UNESCO World Heritage Site, showcases
+            colonial architecture and vibrant street art. The island is famed
+            for its world-class cuisine, including char kway teow and Penang
+            laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich
+            cultural tapestry that makes Penang truly unforgettable.
           </article>
-          <div className = "buttonpage">
+          <div className="buttonpage">
             <Link to="/AboutPenang">
-              <button className = "aboutbutton">Explore More</button>
+              <button className="aboutbutton">Explore More</button>
             </Link>
           </div>
         </section>
@@ -300,6 +306,7 @@ function App() {
           </center>
         </section>
       </div>
+      <Footer />
     </>
   );
 }

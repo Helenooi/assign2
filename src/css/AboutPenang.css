@@ -189,7 +189,7 @@ label:before {
 a {color: rgba(0,0,0,.4)}
 a:hover {color: rgba(0,0,0,.2)}
 
-body.AboutPenang, body.AboutPenang::before{
+body.AboutPenang{
     background-color: #e6e5c1 !important;
     overflow: hidden;
 }
