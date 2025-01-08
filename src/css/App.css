@@ -356,7 +356,9 @@ section{
   align-items: center;
 }
 .abtdiv h1{
-  margin-left: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   font-family: 'Lobster',cursive;
   font-size: 6.5vw;
   position: relative;
@@ -365,7 +367,7 @@ section{
 }
 
 .aboutarticle{
-  margin-top: -20px;
+  margin-top: -30px;
   display: block;
   padding: 30px;
   width: 40vw;
@@ -376,9 +378,10 @@ section{
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: #f6ea82;
+  background: linear-gradient(90deg, #f6ea82, #e1d140);
   overflow: hidden;
   z-index: 2;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .aboutbutton{
@@ -386,7 +389,7 @@ section{
   margin-top: 2vw;
   width: 20vw;
   padding: 12px 24px;
-  background: #f6ea82;
+  background: #dea24e;
   font-family: 'Kalam',cursive;
   color: #000000;
   border-radius: 30px;
@@ -399,10 +402,11 @@ section{
   position: relative;
   transform: translate(0%, 0%);
   z-index: 2;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .aboutbutton:hover {
-  background-color: #dfd46e;
+  background-color: #bf8636;
   transform: scale(1.05); 
 }
 
@@ -414,7 +418,7 @@ section{
   height: 100%;
   background-blend-mode: darken;
   z-index: 0; 
-  opacity: 0.3; 
+  opacity: 0.2; 
 }
 
 @media screen and (max-width: 1200px) {
@@ -423,6 +427,7 @@ section{
   }
 
   .aboutarticle {
+    margin-top: -23px;
     font-size: min(3.5vw,3.5wh); /* Increase font size for better readability */
     width: 80vw; /* Increase width for smaller screens */
   }
@@ -439,6 +444,7 @@ section{
   }
 
   .aboutarticle {
+    margin-top: -18px;
     font-size: 4vw; /* Larger font size for readability on mobile */
     width: 90vw; /* Increase width on mobile */
   }

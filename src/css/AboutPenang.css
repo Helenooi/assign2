@@ -112,6 +112,11 @@ body > .abouth2 {height: auto;}
   text-align: center;
 }
 
+.linkbutton:hover{
+  transform: scale(1.05);
+  background-color: #f59d23;
+}
+
 .AboutNav {
     background: #ffdeb0;
     width: 20%;
@@ -150,7 +155,11 @@ label {
     justify-content: center;
     align-items: center;
 }
-label:hover {color: #e5b46e;}
+label:hover {
+  color: #ffffff;
+  background-color: #efb86a;
+  border-radius: 10px;
+}
 label:before {
     display: block;
     font-size: 10%;
