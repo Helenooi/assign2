@@ -106,82 +106,17 @@ function App() {
           <h2 className="herotitle">Unlock The Secrets Of Penang</h2>
         </section>
         <section id="about">
-          <h1>About Penang</h1>
-          <article className="aboutarticle">
-            Penang, Malaysia's "Pearl of the Orient," blends history, culture,
-            and nature. George Town, a UNESCO World Heritage Site, showcases
-            colonial architecture and vibrant street art. The island is famed
-            for its world-class cuisine, including char kway teow and Penang
-            laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich
-            cultural tapestry that makes Penang truly unforgettable.
-          </article>
-          <div className="buttonpage">
+          <img className="abt" src = "homepage/aboutbg.jpg"/> 
+          <div className = "abtdiv">
+            <h1>About Penang</h1>
+            <article className="aboutarticle">
+              Penang, Malaysia's "Pearl of the Orient," blends history, culture, and nature. George Town, a UNESCO World Heritage Site, showcases colonial architecture and vibrant street art. The island is famed for its world-class cuisine, including char kway teow and Penang laksa. Visitors enjoy serene beaches, lush Penang Hill, and a rich cultural tapestry that makes Penang truly unforgettable.
+            </article>
+          </div>
+          <div className = "buttonpage">
             <Link to="/AboutPenang">
               <button className="aboutbutton">Explore More</button>
             </Link>
-          </div>
-        </section>
-
-        <section id="Event">
-          <h1>section2</h1>
-        </section>
-
-        <section id="Food">
-          <h1>Food and Cuisine</h1>
-          <br />
-          <div className="MainPageFoodContainer">
-            {foodData.map((food) => (
-              <article className="foodarticle" key={food.id}>
-                <a href={food.link} className="article-link">
-                  <div className="article-wrapper">
-                    <figure class="food-figure">
-                      <img src={food.image} alt={food.title} />
-                    </figure>
-                    <div className="article-body">
-                      <h2 className="foodTitle">{food.title}</h2>
-                      <p>{food.description}</p>
-                    </div>
-                  </div>
-                </a>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section id="cultureHeritage">
-          <h1>Culture & Heritage</h1>
-          <br></br>
-          <div class="container-culture">
-            <div class="card" href="">
-              <a href="/Multiracial">
-                <img src="homepage/multiracial.jpg"></img>
-              </a>
-              <div class="card__head">Multi-Racial</div>
-            </div>
-            <div class="card">
-              <a href="/Arts">
-                <img src="homepage/art1.avif" alt="Description of image" />
-              </a>
-              <div class="card__head">Traditional Arts</div>
-            </div>
-            <div class="card">
-              <a href="/HeritageSites">
-                <img src="homepage/HeritageSites.avif"></img>
-              </a>
-              <div class="card__head">Heritage Sites</div>
-            </div>
-            <div class="card">
-              <a href="/HeritageConservation">
-                <img src="homepage/HeritageConservation3.jpg"></img>
-              </a>
-              <div class="card__head">Heritage Conservation</div>
-            </div>
-            <div class="card">
-              <a href="/SacredSpace">
-                <img src="homepage/sacredSpace.webp"></img>
-              </a>
-              <div class="card__head">Sacred Spaces</div>
-            </div>
           </div>
         </section>
 
@@ -305,6 +240,71 @@ function App() {
             </div>
           </center>
         </section>
+
+        <section id="Food">
+          <h1>Food and Cuisine</h1>
+          <br />
+          <div className="MainPageFoodContainer">
+            {foodData.map((food) => (
+              <article className="foodarticle" key={food.id}>
+                <a href={food.link} className="article-link">
+                  <div className="article-wrapper">
+                    <figure class="food-figure">
+                      <img src={food.image} alt={food.title} />
+                    </figure>
+                    <div className="article-body">
+                      <h2 className="foodTitle">{food.title}</h2>
+                      <p>{food.description}</p>
+                    </div>
+                  </div>
+                </a>
+              </article>
+            ))}
+          </div>
+        </section>
+
+        <section id="Event">
+          <h1>Event</h1>
+        </section>
+
+        <section id="cultureHeritage">
+          <h1>Culture & Heritage</h1>
+          <br></br>
+          <div class="container-culture">
+            <div class="card" href="">
+              <a href="/Multiracial">
+                <img src="homepage/multiracial.jpg"></img>
+              </a>
+              <div class="card__head">Multi-Racial</div>
+            </div>
+            <div class="card">
+              <a href="/Arts">
+                <img src="homepage/art1.avif" alt="Description of image" />
+              </a>
+              <div class="card__head">Traditional Arts</div>
+            </div>
+            <div class="card">
+              <a href="/HeritageSites">
+                <img src="homepage/HeritageSites.avif"></img>
+              </a>
+              <div class="card__head">Heritage Sites</div>
+            </div>
+            <div class="card">
+              <a href="/HeritageConservation">
+                <img src="homepage/HeritageConservation3.jpg"></img>
+              </a>
+              <div class="card__head">Heritage Conservation</div>
+            </div>
+            <div class="card">
+              <a href="/SacredSpace">
+                <img src="homepage/sacredSpace.webp"></img>
+              </a>
+              <div class="card__head">Sacred Spaces</div>
+            </div>
+          </div>
+        </section>
+
+        
       </div>
       <Footer />
     </>

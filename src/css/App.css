@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
@@ -215,12 +215,12 @@ section{
 }
 
 #intro h2{
-  font-family:"DM Serif Display", serif;
-  font-size: 6vw;
+  font-family:"Bebas Neue", serif;
+  font-size: 7vw;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-  text-align: right;
-  margin-top: 20px;
+  text-align: left;
+  margin-top: 40px;
   position: absolute;
   top: 0%;
   right: 3%;
@@ -347,41 +347,49 @@ section{
 /*below is Hong Jack Part*/
 #about{
   display: flex;
+  position: relative;
   flex-direction: column;
   margin-top: -80px;
-  align-items: center;
+  height: 100vh; /* Ensure the section takes full viewport height */
+  overflow: hidden; /* Prevent content from spilling out */
   justify-content: center;
+  align-items: center;
 }
-#about h1{
+.abtdiv h1{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
   font-family: 'Lobster',cursive;
-  z-index: 1;
-  margin-left: -50%;
+  font-size: 6.5vw;
+  position: relative;
   color: #7e7522;
+  z-index: 3;
 }
 
 .aboutarticle{
-  margin-left: -50%;
-  margin-top: -25px;
+  margin-top: -30px;
   display: block;
   padding: 30px;
   width: 40vw;
-  font-size: 20px;
+  font-size: 1.5vw;
   font-family: 'Kalam',cursive;
   max-width: 1000px;
   color: #000000;
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: #f6ea82;
+  background: linear-gradient(90deg, #f6ea82, #e1d140);
   overflow: hidden;
-  z-index: 0;
+  z-index: 2;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .aboutbutton{
-  margin-top: 2rem;
+  font-size: 1.5vw;
+  margin-top: 2vw;
   width: 20vw;
   padding: 12px 24px;
-  background: #f6ea82;
+  background: #dea24e;
   font-family: 'Kalam',cursive;
   color: #000000;
   border-radius: 30px;
@@ -391,9 +399,58 @@ section{
   box-sizing: border-box;
   text-align: center;
   display: block;
+  position: relative;
+  transform: translate(0%, 0%);
+  z-index: 2;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
 }
 
 .aboutbutton:hover {
-  background-color: #dfd46e;
+  background-color: #bf8636;
   transform: scale(1.05); 
+}
+
+.abt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-blend-mode: darken;
+  z-index: 0; 
+  opacity: 0.2; 
+}
+
+@media screen and (max-width: 1200px) {
+  .abtdiv h1 {
+    font-size: min(8vw,8wh); /* Larger font size for smaller screens */
+  }
+
+  .aboutarticle {
+    margin-top: -23px;
+    font-size: min(3.5vw,3.5wh); /* Increase font size for better readability */
+    width: 80vw; /* Increase width for smaller screens */
+  }
+
+  .aboutbutton {
+    font-size: min(3.5vw,3.5wh); /* Increase font size for smaller screens */
+    width: 50vw; /* Increase button width */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .abtdiv h1 {
+    font-size: 10vw; /* Even larger font size for very small screens */
+  }
+
+  .aboutarticle {
+    margin-top: -18px;
+    font-size: 4vw; /* Larger font size for readability on mobile */
+    width: 90vw; /* Increase width on mobile */
+  }
+
+  .aboutbutton {
+    font-size: 4vw; /* Larger font size for the button on mobile */
+    width: 50vw; /* Make the button wider on mobile */
+  }
 }
