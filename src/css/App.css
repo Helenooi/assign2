@@ -10,7 +10,7 @@ section {
 
 /*force the background into white*/
 body, html {
-  background: white !important;
+  background: #ffffff !important;
   opacity: 1 !important;
 }
 
@@ -28,6 +28,7 @@ body {
 
 section{
   height: 100vh;
+  background-color: #ffffff;
 }
 .container-culture {
   display: flex;
@@ -347,18 +348,18 @@ figure {
   display: flex;
   flex-direction: column;
   margin-top: -80px;
-  align-items: left;
+  align-items: center;
   justify-content: center;
 }
 #about h1{
   font-family: 'Lobster',cursive;
   z-index: 1;
-  margin-left: 10%;
+  margin-left: -50%;
   color: #7e7522;
 }
 
 .aboutarticle{
-  margin-left: 8%;
+  margin-left: -50%;
   margin-top: -25px;
   display: block;
   padding: 30px;
@@ -377,10 +378,22 @@ figure {
 
 .aboutbutton{
   margin-top: 1rem;
-  margin-left: 18%;
+  margin-left: -123%;
   width: 20vw;
+  padding: 12px 24px;
   background: #f6ea82;
   font-family: 'Kalam',cursive;
   color: #000000;
   border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+}
+
+.aboutbutton:hover {
+  background-color: #dfd46e;
+  transform: scale(1.05); 
 }

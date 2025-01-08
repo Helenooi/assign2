@@ -53,30 +53,30 @@ function AboutPenang(){
                     <h2 className="abouth2">
                     <img src={'AboutPenang/transportation.jpg'} alt="" />
                     </h2>                    
-                    <h3><b>TRAVEL TO PENANG</b></h3>
-                    <h4><b>Air</b></h4>
+                    <h3>TRAVEL TO PENANG</h3>
+                    <h4>Air</h4>
                     <p>Penang offers a wide range of flight options that connect to both domestic and international airports. There a numerous daily flights from major cities in Malaysia such as Kuala Lumpur, Langkawi, and Johor Bahru. Penang International Airport is located on Penang Island and is about 20km from the city centre. </p>
-                    <h4><b>Road</b></h4>
+                    <h4>Road</h4>
                     <p>Traveling to Penang by road is efficient and convenient as there is a North-South Highway that connects Penang to major cities on the West side of Peninsular Malaysia. This highway runs through 7 states and connects the Thailand and Singapore border so it is easy to come to Penang by road. It takes around 5 hours from Kuala Lumpur to Penang depending on traffic and road conditions. </p>
-                    <h4><b>Railway</b></h4>
+                    <h4>Railway</h4>
                     <p>Butterworth Railway Station provides another transportation to reach mainland Penang. This railway station connects to the mainline that stretches from Bangkok, Thailand to Johor Bahru, Malaysia. It provides the traveler an additional choice to travel here if they want to avoid the hassle of driving or long bus rides. Besides that, travelers can enjoy the picturesque views of lush greenery and paddy fields along the railway. </p>                   
-                    <a href="https://malaysiatrains.com/butterworth-railway-station/" target="_blank" className = "linkbutton">Butterworth Railway Station Website</a>
-                    <h4><b>Passenger Ferry</b></h4>
+                    <a href="https://malaysiatrains.com/butterworth-railway-station/" target="_blank" className = "linkbutton"><bu>Butterworth Railway Station Website</bu></a>
+                    <h4>Passenger Ferry</h4>
                     <p>There is an alternative way to travel to Penang Island from the mainland which is through the ferry. Sultan Abdul Halim Ferry Terminal provides a ferry service that plies between Penang Island and the mainland by just a 10-minute ferry ride. It is easy to reach here as it is located next to the Butterworth Railway Station and Penang Sentral. The operating intervals for the ferry are 20 minutes during peak hours and 30/60 during non-peak hours. </p>
-                    <a href="https://www.penangport.com.my/services/ferry-services" target="_blank" className="linkbutton">Ferry Schedule</a>
-                    <h3><b>EXPLORING PENANG</b></h3>
-                    <h4><b>Taxi</b></h4>
+                    <a href="https://www.penangport.com.my/services/ferry-services" target="_blank" className="linkbutton"><bu>Ferry Schedule</bu></a>
+                    <h3>EXPLORING PENANG</h3>
+                    <h4>Taxi</h4>
                     <p>Taxi is a widely used transportation that is available all around Penang. They are easily accessible in areas like hotels, shopping mall, and popular tourist attractions. It is suggested to ask for the fare before starting your journey to avoid any misunderstanding. Negotiation can be done if you feel that the prices quoted by the taxi driver are too high for you. </p>
-                    <h4><b>E-hailing Service</b></h4>
+                    <h4>E-hailing Service</h4>
                     <p>E-hailing service is also quite popular in Penang nowadays. E-hailing apps such as Grab can be downloaded from PlayStore or AppStore to book a ride from anywhere in Penang. It is more convenient as the pricing is known upon booking the ride and negotiation can be avoided. Other than that, Grab often provides discounts for first-time users or during special events. The payment method for E-hailing can be made through various ways such as cash, credit, or debit card. </p>
-                    <h4><b>Bus</b></h4>
+                    <h4>Bus</h4>
                     <p>Two types of bus services operate in Penang which are Rapid Penang and CAT (Central Area Transit) bus. Rapid Penang is a public bus service that covers the island and mainland areas, making it an excellent option for budgeting travelers. The routes and schedules are displayed at terminals and bus stops and travelers should inform the driver about their destination to have the exact fare to pay unless they have Mutiara Card. The CAT bus operates within George Town and it is free to board. It allows travelers to go around George Town attractions without any cost. </p>
-                    <a href="https://myrapid.com.my/bus-train/rapid-penang/" target="_blank" className="linkbutton">Rapid Penang Website</a>
-                    <h4><b>Trishaw</b></h4>
+                    <a href="https://myrapid.com.my/bus-train/rapid-penang/" target="_blank" className="linkbutton"><bu>Rapid Penang Website</bu></a>
+                    <h4>Trishaw</h4>
                     <p>Trishaws, an iconic symbol of Penang, offers a nostalgic and leisurely way to explore George Town’s charming streets. These pedal-powered vehicles provide a unique perspective on the city, allowing travelers to soak in the sights at a relaxed pace. Trishaw rides are more enjoyable on short distances, such as visiting nearby attractions or exploring areas with limited vehicle access. The average rate of RM40-50 per hour is reasonable for a cultural experience, but agreeing on the fare beforehand is essential. Drivers often share local stories and recommendations, making the ride more engaging.</p>
-                    <h4><b>Car Rental</b></h4>
+                    <h4>Car Rental</h4>
                     <p>Car rentals are ideal for travelers who prioritize flexibility and want to explore Penang at their own pace. Whether visiting beaches, hill stations, or local markets, having a car ensures convenience and time savings. However daily rental rates are competitive, and most services require a deposit. Many hotels can assist with car rental arrangements, ensuring a hassle-free process for guests.</p>
-                    <h4><b>Bike/Bicycle Rental</b></h4>
+                    <h4>Bike/Bicycle Rental</h4>
                     <p>Exploring Penang by bicycle or motorbike is economical and enjoyable, especially for adventurers who want to experience the island’s charm up close. Bicycle rental services are abundant in George Town and along Batu Ferringhi, offering travelers a chance to explore at a leisurely pace. For those who prefer motorbikes, rental shops provide affordable options for zipping around the island. Bike-sharing systems also operate in urban areas, making picking up and dropping off bikes at designated stations easy. This mode of transport is perfect for short distances, allowing travelers to appreciate Penang’s scenic views and vibrant streets.</p>
                 </article>
   
