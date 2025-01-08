@@ -2,7 +2,7 @@
 .main-container { 
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Ensure the container takes at least full height for footer */
+  min-height: 40vh; /* Ensure the container takes at least full height for footer */
 }
 
 .footer-container {
