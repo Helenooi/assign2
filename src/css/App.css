@@ -147,6 +147,10 @@ section{
   color: #5c5c74;
 }
 
+#attraction{
+  height: fit-content;
+  padding:35px 0px;
+}
 
 .buttoncontainer .btnattraction{
   background-color:#3472CA;
