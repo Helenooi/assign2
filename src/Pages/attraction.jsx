@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 import '../css/attraction.css';
 import NavbarLanding from "../components/navbarLanding.jsx";
+import Footer from "../components/footer.jsx";
 
 export const Attraction = () => {
   const [searchTerm, setSearchTerm] = useState("");
@@ -160,6 +161,9 @@ export const Attraction = () => {
             ))
         )}
       </ul>
+
+      <div class="space-box"></div>
+      <Footer />
     </div>
   );
 };
