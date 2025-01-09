@@ -151,6 +151,10 @@ section{
   color: #5c5c74;
 }
 
+#attraction{
+  height: fit-content;
+  padding:35px 0px;
+}
 
 .buttoncontainer .btnattraction{
   background-color:#3472CA;
@@ -204,7 +208,7 @@ section{
 /* May Fen attraction part*/
 .hero {
     width:100%;
-    height:100vh;
+    height:100%;
     background-position: bottom;
     background-size: cover;
     background-blend-mode: darken;
