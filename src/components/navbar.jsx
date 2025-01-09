@@ -1,6 +1,7 @@
 import "../css/menu.css";
 import { IoMenu } from "react-icons/io5";
 import { useState } from "react";
+import { HashLink } from 'react-router-hash-link';
 
 
 const Navbar = () => {
@@ -15,9 +16,7 @@ const Navbar = () => {
         <div className="container">
           <nav>
             <div className="logo">
-              <a href="/app">
-                <img src='homepage/logo.png' class='logo-size'></img>
-              </a>
+              <HashLink smooth to="/app" className="logo"><img src='homepage/logo.png' class='logo-size'></img></HashLink>
             </div>
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>
