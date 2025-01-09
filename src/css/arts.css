@@ -243,7 +243,7 @@ h1 {
 .carousel {
   width: 100%;
   height: auto; /* Ensure it adjusts to content */
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
   padding: 30px;
   padding-top: 80px;
   position: relative;
@@ -276,7 +276,7 @@ h1 {
 
 
   /*Here new add */
-  overflow: visible;
+  /* overflow: visible; */
 }
 
 .categories__title {
@@ -1010,3 +1010,37 @@ h1 {
   }
 }
 
+@media (max-width: 480px) {
+  .first-box {
+    margin-left: -430px;
+  }
+
+  .grays1 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 452px) {
+  .first-box-figure {
+    width: 300px;
+    height: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .first-box {
+    margin-left: -500px;
+  }
+}
+
+@media (max-width: 918px) {
+  .first-box {
+    margin-left: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .first-box {
+    margin-left: -480px;
+  }
+}
