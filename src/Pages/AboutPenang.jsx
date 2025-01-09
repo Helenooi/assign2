@@ -36,14 +36,14 @@ function AboutPenang(){
   
                 <article className="insightarticle">
                     <h2 className="abouth2">
-                    <img src={'AboutPenang/intro.jpg'} alt="" />
+                    <img src={'AboutPenang/intro.jpg'} alt="insight" />
                     </h2>                    
                     <p>Penang is one of the states in Malaysia located on the northwest coast of Peninsular Malaysia with its capital George Town, located on Penang Island. Penang is a special state in Malaysia because it consists of two parts which are Penang Island and Seberang Perai. Penang is a thriving vacation destination with many cultural sights and natural sceneries listed as UNESCO World Heritage Site. It is a must-visit destination when traveling to Malaysia, and it offers a variety of iconic dishes from different cultural heritages. This has also made Penang another name, the food lover’s paradise in Malaysia. </p>
                 </article>
   
                 <article className="historyarticle">
                     <h2 className="abouth2">
-                    <img src={'AboutPenang/history.jpg'} alt="" />
+                    <img src={'AboutPenang/history.jpg'} alt="history" />
                     </h2>  
                     <p>Before British colonization, Penang was part of the Sultanate of Kedah. In 1786, Francis Light from the British East India Company secured Penang island from the Sultan of Kedah through a treaty. Under British settlement, Penang Island was called Prince of Wales Island and became part of the Straits Settlements together with Singapore and Malacca in 1826. Seberang Perai was also incorporated into the British colony by acting as a base for Penang Island. Seberang Perai plays a significant role by providing agriculture and also acting as a trade route connecting Penang Island to the mainland. </p>
                     <p>In 1948, Penang became part of the Federation of Malaya together with Johor, Kedah, Kelantan, Malacca, Negeri Sembilan, Pahang, Penang, Perak, Perlis, Selangor and Terengganu. On 31 August 1957, the Federation of Malaya gained independence from British rule, marking the birth of a new nation. In 1963, the Federation of Malaya expanded to include Sabah, Sarawak, and Singapore to form Malaysia. However, Singapore was separated from Malaysia in 1965, leaving the remaining states to continue as Malaysia until the present day. </p>
@@ -51,7 +51,7 @@ function AboutPenang(){
   
                 <article className="transportationarticle">
                     <h2 className="abouth2">
-                    <img src={'AboutPenang/transportation.jpg'} alt="" />
+                    <img src={'AboutPenang/transportation.jpg'} alt="transport" />
                     </h2>                    
                     <h3>TRAVEL TO PENANG</h3>
                     <h4>Air</h4>
@@ -82,14 +82,14 @@ function AboutPenang(){
   
                 <article className="weatherarticle">
                     <h2 className="abouth2">
-                    <img src={'AboutPenang/sunny.jpg'} alt="" />
+                    <img src={'AboutPenang/sunny.jpg'} alt="weather" />
                     </h2>  
                     <p>Penang experiences a tropical rainforest climate characterized by warm temperatures ranging from 24 to 32 degree Celsius and high humidity throughout the year. Penang weather is slightly different depending on the monsoon season, which is the Southwest Monsoon and Northeast Monsoon. The Southwest Monsoon starts from May to September bringing a drier condition while the Northeast Monsoon starts from November to March bringing heavier rainfall. The best time to visit Penang is between April and August because of its comfortable weather and minimal rainfall.</p>
                 </article>
 
                 <article className="preparearticle">
                     <h2 className="abouth2">
-                    <img src={'AboutPenang/prepare.jpg'} alt="" />
+                    <img src={'AboutPenang/prepare.jpg'} alt="prepare" />
                     </h2>                      
                     <h4>Outfit</h4>
                     <p>The right clothing is essential due to the tropical climate in Penang. Short-sleeved shirts, shorts, or lightweight dresses are suitable for daytime activities to keep your body cool on a sunny day. For rainy days, especially during the monsoon season (November to March), an umbrella or a waterproof jacket is important to keep you dry and comfortable while exploring Penang without disruption. If you are going to visit places of worship, make sure that you dress modestly and respectfully. </p>
