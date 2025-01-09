@@ -104,76 +104,76 @@ function AboutPenang(){
         
             <div class="containers">
                 <div class="child-containers">
-                    <img src="https://picsum.photos/100" alt="pic 1"/>
+                    <img src="AboutPenang/background.jpg" alt="pic 1"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/200" alt="pic 2"/>
+                    <img src="AboutPenang/background2.jpg" alt="pic 2"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/300" alt="pic 3"/>
+                    <img src="AboutPenang/background3.jpg" alt="pic 3"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/400" alt="pic 4"/>
+                    <img src="AboutPenang/background4.jpg" alt="pic 4"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/500" alt="pic 5"/>
+                    <img src="AboutPenang/background5.jpg" alt="pic 5"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/600" alt="pic 6"/>
+                    <img src="AboutPenang/background6.jpg" alt="pic 6"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/150" alt="pic 7"/>
+                    <img src="AboutPenang/background7.jpg" alt="pic 7"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/250" alt="pic 8"/>
+                    <img src="AboutPenang/background8.jpg" alt="pic 8"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/350" alt="pic 9"/>
+                    <img src="AboutPenang/background9.jpg" alt="pic 9"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/450" alt="pic 10"/>
+                    <img src="AboutPenang/background10.jpg" alt="pic 10"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/550" alt="pic 11"/>
+                    <img src="AboutPenang/background11.jpg" alt="pic 11"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/650" alt="pic 12"/>
+                    <img src="AboutPenang/background12.jpg" alt="pic 12"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/110" alt="pic 13"/>
+                    <img src="AboutPenang/background13.jpg" alt="pic 13"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/210" alt="pic 14"/>
+                    <img src="AboutPenang/background14.jpg" alt="pic 14"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/310" alt="pic 15"/>
+                    <img src="AboutPenang/background15.jpg" alt="pic 15"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/410" alt="pic 16"/>
+                    <img src="AboutPenang/background16.jpg" alt="pic 16"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/510" alt="pic 17"/>
+                    <img src="AboutPenang/background17.jpg" alt="pic 17"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/610" alt="pic 18"/>
+                    <img src="AboutPenang/background18.jpg" alt="pic 18"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/125" alt="pic 19"/>
+                    <img src="AboutPenang/background19.jpg" alt="pic 19"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/225" alt="pic 20"/>
+                    <img src="AboutPenang/background20.jpg" alt="pic 20"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/325" alt="pic 21"/>
+                    <img src="AboutPenang/background21.jpg" alt="pic 21"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/425" alt="pic 22"/>
+                    <img src="AboutPenang/background22.jpg" alt="pic 22"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/525" alt="pic 23"/>
+                    <img src="AboutPenang/background23.jpg" alt="pic 23"/>
                 </div>
                 <div class="child-containers">
-                    <img src="https://picsum.photos/625" alt="pic 24"/>
+                    <img src="AboutPenang/background24.jpg" alt="pic 24"/>
                 </div>
             </div>
         </>        
