@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../css/attraction.css';
 import NavbarLanding from "../components/navbarLanding.jsx";
+import Footer from "../components/footer.jsx";
 
 //import 'animate.css';
 
@@ -299,7 +300,9 @@ export const Attraction = () => {
   )}
 </ul>
 
+<div class="space-box"></div>
 
+<Footer />
     </div>
   );
 };

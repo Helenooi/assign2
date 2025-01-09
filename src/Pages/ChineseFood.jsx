@@ -46,6 +46,9 @@ const ChineseFood = () => {
       <div className="food-page">
         <FoodList foods={foodData} />
       </div>
+
+      <div class="space-box"></div>
+      
       <Footer />
     </>
   );

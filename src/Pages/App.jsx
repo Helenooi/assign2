@@ -77,21 +77,21 @@ function App() {
     {
       id: 1,
       title: "Chinese Cuisine",
-      description: "This is about Chinese Food.",
+      description: "Savory, umami-rich, light yet flavorful, with a balance of sweet, sour, and soy-based flavors.",
       image: "/homepage/chinese food preview in main page.jpg",
       link: "/ChineseFood",
     },
     {
       id: 2,
       title: "Malay Cuisine",
-      description: "This is about Malay Food.",
+      description: "Spicy, aromatic, creamy, and rich, with bold flavors from coconut milk, chili, and local herbs.",
       image: "/homepage/malay food preview in main page.jpg",
       link: "/MalayFood",
     },
     {
       id: 3,
       title: "Indian Cuisine",
-      description: "This is about Indian Food.",
+      description: "Spicy, aromatic, hearty, and bold, with deep flavors from a variety of spices and rich curries.",
       image: "/homepage/indian food preview in main page.jpg",
       link: "/IndianFood",
     },
@@ -254,7 +254,7 @@ function App() {
                     </figure>
                     <div className="article-body">
                       <h2 className="foodTitle">{food.title}</h2>
-                      <p>{food.description}</p>
+                      <p className="foodDescInMain">{food.description}</p>
                     </div>
                   </div>
                 </a>
@@ -306,6 +306,9 @@ function App() {
 
         
       </div>
+
+      <div class="space-box"></div>
+      
       <Footer />
     </>
   );

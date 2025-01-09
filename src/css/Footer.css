@@ -2,7 +2,6 @@
 .main-container { 
   display: flex;
   flex-direction: column;
-  min-height: 40vh; /* Ensure the container takes at least full height for footer */
 }
 
 .footer-container {
@@ -55,7 +54,7 @@
   padding: 0;
   display: flex;
   justify-content: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .social-link {

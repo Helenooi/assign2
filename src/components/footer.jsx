@@ -3,8 +3,8 @@ import "../css/Footer.css"; // Import the separate CSS file
 const Footer = () => {
   const TwitterIcon = () => (
     <svg
-      width="24"
-      height="24"
+      width="30"
+      height="30"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
@@ -14,11 +14,12 @@ const Footer = () => {
       <path d="M22.23 5.924c-.81.36-1.68.6-2.59.71.93-.56 1.64-1.45 1.97-2.52-.87.52-1.84.91-2.87 1.11a4.02 4.02 0 0 0-2.97-1.29c-2.21 0-4 1.79-4 4 0 .31.03.61.1.9C7.69 7.97 4.1 5.84 1.67 2.45A4.006 4.006 0 0 0 3.1 7.4c-.74 0-1.45-.23-2.07-.62-.02 2.04 1.47 3.75 3.52 4.14-.68.18-1.4.24-2.14.09a4.01 4.01 0 0 0 3.74 2.8 8.05 8.05 0 0 1-4.95 1.7c-.32 0-.64-.02-.96-.06 2.68 1.72 5.88 2.69 9.1 2.69 10.9 0 16.9-9.04 16.9-16.9 0-.26-.01-.51-.03-.76.76-.55 1.42-1.24 1.92-2.02z" />
     </svg>
   );
+  
 
   const FacebookIcon = () => (
     <svg
-      width="24"
-      height="24"
+      width="30"
+      height="30"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
@@ -31,8 +32,8 @@ const Footer = () => {
 
   const InstagramIcon = () => (
     <svg
-      width="24"
-      height="24"
+      width="30"
+      height="30"
       fill="currentColor"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"

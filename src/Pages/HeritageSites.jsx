@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import NavbarLanding from "../components/navbarLanding.jsx";
+import Footer from "../components/footer.jsx";
 import "../css/arts.css";
 import Papa from "papaparse"; // Ensure Papa is imported if you are parsing CSV
 import { useNavigate } from 'react-router-dom';
@@ -137,6 +138,7 @@ function HeritageSites() {
       </div>
 
       <div class="space-box"></div>
+      <Footer />
 
       <dialog id="dialog" className="custom-dialog" ref={dialogRef}>
         <div className="places-container">

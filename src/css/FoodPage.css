@@ -8,6 +8,10 @@ body.foodPage, html.foodPage {
   overflow-y: auto; /* Ensure scrolling is enabled */
 }
 
+.space-box {
+  height: 100px;
+}
+
 /* Full container for the Chinese food background image */
 .FoodPageImageContainerWrapper {
   position: relative;

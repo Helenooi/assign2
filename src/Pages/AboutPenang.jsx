@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import "../css/AboutPenang.css";
 import NavbarLanding from "../components/navbarLanding.jsx";
+import Footer from "../components/footer.jsx";
 
 function AboutPenang(){
     useEffect(() => {
@@ -176,6 +177,10 @@ function AboutPenang(){
                     <img src="https://picsum.photos/625" alt="pic 24"/>
                 </div>
             </div>
+
+            <div class="space-box"></div>
+            
+            <Footer />
         </>        
     );
 }

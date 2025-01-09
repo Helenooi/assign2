@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Papa from "papaparse";
 import FoodList from "../components/foodList";
 import NavbarLanding from "../components/navbarLanding";
+import Footer from "../components/footer.jsx";
 import "../css/FoodPage.css";
 
 const IndianFood = () => {
@@ -45,6 +46,10 @@ const IndianFood = () => {
       <div className="food-page">
         <FoodList foods={foodData} />
       </div>
+
+      <div class="space-box"></div>
+      
+      <Footer />
     </>
   );
 };
