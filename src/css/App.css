@@ -262,7 +262,7 @@ section{
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: #ffcf57;
+  background: #c3b091;
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
@@ -330,7 +330,7 @@ section{
 
 .foodarticle:has(:hover, :focus) {
   --img-scale: 1.1;
-  --title-color: #a62900;
+  --title-color: #a42d55;
   box-shadow: rgba(0, 0, 0, 0.26) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
