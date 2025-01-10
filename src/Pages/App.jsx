@@ -27,6 +27,10 @@ import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhone } from "react-icons/fa6";
 import { MdOutlineMailOutline } from "react-icons/md";
 
+// Chok part start
+import EventSection from "../Pages/EventSection.jsx";
+// Chok part end
+
 function App() {
   const penangHillImages = [penanghill_1, penanghill_2, penanghill_3];
   const escapeImages = [escape1, escape2, escape3];
@@ -129,7 +133,10 @@ function App() {
         </section>
 
         <section id="attraction">
-          <h1 className="title">Penang Attraction</h1>
+          {/* <h1 className="title">Penang Attraction</h1> */}
+          {/* Chok modify h1 start */}
+          <h1>Penang Attraction</h1> 
+          {/* Chok modify h1 end */}
           <div className="boxright">
             <div className="box">
               <img
@@ -272,7 +279,8 @@ function App() {
         </section>
 
         <section id="Event">
-          <h1>Event</h1>
+          <h1>Events & Festivals</h1>
+          <EventSection />
         </section>
 
         <section id="cultureHeritage">
