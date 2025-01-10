@@ -29,9 +29,11 @@ const Navbar = () => {
               <li>
                 <a href="#Food" className="navbar-button">Food & Cuisine</a>
               </li>
+              {/* Chok modify href from about to Event start*/}
               <li>
-                <a href="#aboutus" className="navbar-button">Events & Festivals</a>
+                <a href="#Event" className="navbar-button">Events & Festivals</a>
               </li>
+              {/* Chok modify href from about to Event end*/}
               <li>
                 <a href="#cultureHeritage" className="navbar-button">Culture & Heritage</a>
               </li>
