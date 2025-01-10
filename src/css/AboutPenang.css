@@ -251,3 +251,11 @@ body.AboutPenang{
     border-radius: inherit;
     opacity:0.7;
   }
+
+  @media (max-width: 768px) {
+    #root {
+      width: 100%; /* Ensure full width for small screens */
+      height: auto; /* Allow height to adjust based on content */
+      min-width: 100%; /* Prevent fixed width from restricting layout */
+    }
+  }
