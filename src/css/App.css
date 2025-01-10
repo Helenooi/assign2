@@ -157,11 +157,28 @@ section{
 }
 
 .buttoncontainer .btnattraction{
-  background-color:#3472CA;
-  padding:5px 10px;
-  border-radius: 10px;
-  font-size: 15px;
-  color:white;
+/* Chok modify button start*/
+/* background-color:#3472CA; */
+/* padding:5px 10px; */
+/* border-radius: 10px; */
+/* font-size: 15px; */
+/* color:white; */
+  padding: 12px 24px;
+  font-weight: 600;
+  background: #dea24e;
+  color: #000000;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  box-sizing: border-box;
+  text-align: center;
+  display: block;
+  position: relative;
+  transform: translate(0%, 0%);
+  z-index: 2;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
+/* Chok modify button end */
 }
 
 .btnattraction span {
@@ -523,3 +540,19 @@ section{
   height: auto; /* Maintain aspect ratio */
   display: block; /* Remove any inline spacing */
 }
+
+
+/* Chok part */
+#Event {
+  height: auto;
+}
+/* Chok part end */
+
+/* Chok edit overall page deisgn */
+h1 {
+  text-align: center;
+  font-size: clamp(1.5rem, 5vw, 3rem);
+  padding: 1rem 1rem 0;
+  margin: 0.5em 0;
+}
+/* Chok edit overall page deisgn end*/
