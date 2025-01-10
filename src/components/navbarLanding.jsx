@@ -18,9 +18,7 @@ const NavbarLanding = () => {
         <div className="container">
           <nav>
             <div className="logo">
-              <a href="/app">
-                <img src='homepage/logo.png' class='logo-size'></img>
-              </a>
+              <HashLink smooth to="/app" className="logo"><img src='homepage/logo.png' class='logo-size'></img></HashLink>
             </div>
 
             <ul className={isOpen ? "nav-link active" : "nav-link"}>

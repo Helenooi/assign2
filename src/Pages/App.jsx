@@ -2,6 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import Navbar from "../components/navbar.jsx";
 import Footer from "../components/footer.jsx";
+import { HashLink } from 'react-router-hash-link';
 import "../css/App.css";
 
 import { Link } from "react-router-dom";
@@ -254,7 +255,7 @@ function App() {
           <div className="MainPageFoodContainer">
             {foodData.map((food) => (
               <article className="foodarticle" key={food.id}>
-                <a href={food.link} className="article-link">
+                <HashLink smooth to={food.link} className="article-link">
                   <div className="article-wrapper">
                     <figure class="food-figure">
                       <img src={food.image} alt={food.title} />
@@ -264,7 +265,7 @@ function App() {
                       <p className="foodDescInMain">{food.description}</p>
                     </div>
                   </div>
-                </a>
+                </HashLink>
               </article>
             ))}
           </div>
@@ -279,33 +280,33 @@ function App() {
           <br></br>
           <div class="container-culture">
             <div class="card" href="">
-              <a href="/Multiracial">
+              <HashLink smooth to="/Multiracial">
                 <img src="homepage/multiracial.jpg"></img>
-              </a>
+              </HashLink>
               <div class="card__head">Multi-Racial</div>
             </div>
             <div class="card">
-              <a href="/Arts">
+              <Link to="/Arts">
                 <img src="homepage/art1.avif" alt="Description of image" />
-              </a>
+              </Link>
               <div class="card__head">Traditional Arts</div>
             </div>
             <div class="card">
-              <a href="/HeritageSites">
+              <Link to="/HeritageSites">
                 <img src="homepage/HeritageSites.avif"></img>
-              </a>
+              </Link>
               <div class="card__head">Heritage Sites</div>
             </div>
             <div class="card">
-              <a href="/HeritageConservation">
+              <Link to="/HeritageConservation">
                 <img src="homepage/HeritageConservation3.jpg"></img>
-              </a>
+              </Link>
               <div class="card__head">Heritage Conservation</div>
             </div>
             <div class="card">
-              <a href="/SacredSpace">
+              <Link to="/SacredSpace">
                 <img src="homepage/sacredSpace.webp"></img>
-              </a>
+              </Link>
               <div class="card__head">Sacred Spaces</div>
             </div>
           </div>
