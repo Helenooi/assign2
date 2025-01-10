@@ -134,16 +134,6 @@ const EventSection = () => {
       operatingHours: "07:00 AM - 12:00 PM"
     },
     {
-      id: 13,
-      title: "Malaysia Day",
-      image: "/event/MerdekaDay.jpg",
-      description: "The Malaysia Day Parade is one of the most anticipated events in Penang, Held in the heart of George Town.",
-      date: "16 September 2025",
-      location: "-",
-      operatingDays: "16 September 2025",
-      operatingHours: "-"
-    },
-    {
       id: 14,
       title: "Malaysia Day",
       image: "/event/MalaysiaDay.webp",
@@ -164,17 +154,7 @@ const EventSection = () => {
       operatingHours: "-"
     },
     {
-      id: 11,
-      title: "Nine Emperor Gods Festival",
-      image: "/event/NineEmperor.jpg",
-      description: "Experience this nine-day Taoist celebration with vegetarian food festivals and cultural ceremonies.",
-      date: "12 May 2025",
-      location: "-",
-      operatingDays: "During festival",
-      operatingHours: "-"
-    },
-    {
-      id: 12,
+      id: 16,
       title: "Nine Emperor Gods Festival",
       image: "/event/NineEmperor.jpg",
       description: "Experience this nine-day Taoist celebration with vegetarian food festivals and cultural ceremonies.",
