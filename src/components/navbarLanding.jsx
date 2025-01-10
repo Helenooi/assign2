@@ -32,7 +32,7 @@ const NavbarLanding = () => {
                 <HashLink smooth to="/app#Food" className="navbar-button">Food & Cuisine</HashLink>
               </li>
               <li>
-                <HashLink smooth to="/app#aboutus" className="navbar-button">Events & Festivals</HashLink>
+                <HashLink smooth to="/app#Event" className="navbar-button">Events & Festivals</HashLink>
               </li>
               <li>
                 <HashLink smooth to="/app#cultureHeritage" className="navbar-button">Culture & Heritage</HashLink>
