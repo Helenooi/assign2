@@ -105,6 +105,7 @@ function App() {
           <img class="hero" src="homepage/mainbg.jpg" />
           <h2 className="herotitle">Unlock The Secrets Of Penang</h2>
         </section>
+
         <section id="about">
           <img className="abt" src = "homepage/aboutbg.jpg"/> 
           <div className = "abtdiv">
@@ -117,6 +118,12 @@ function App() {
             <Link to="/AboutPenang">
               <button className="aboutbutton">Explore More</button>
             </Link>
+          </div>
+          <div id="video"> 
+            <video width="640" height="360" controls>
+              <source src="homepage/penang.mp4" type="video/mp4"/>
+              Your browser does not support the video tag.
+            </video>
           </div>
         </section>
 

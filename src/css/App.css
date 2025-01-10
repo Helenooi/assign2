@@ -386,6 +386,8 @@ section{
   justify-content: center;
   align-items: center;
 }
+
+
 .abtdiv h1{
   display: flex;
   justify-content: center;
@@ -401,7 +403,7 @@ section{
   margin-top: -30px;
   display: block;
   padding: 30px;
-  width: 40vw;
+  width:65vw;
   font-size: 1.5vw;
   font-family: 'Kalam',cursive;
   max-width: 1000px;
@@ -452,9 +454,13 @@ section{
   opacity: 0.2; 
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1500px) {
   .abtdiv h1 {
     font-size: min(8vw,8wh); /* Larger font size for smaller screens */
+  }
+
+  .abtdiv {
+    margin-top: 20%; /* Add spacing between elements */
   }
 
   .aboutarticle {
@@ -474,6 +480,10 @@ section{
     font-size: 10vw; /* Even larger font size for very small screens */
   }
 
+  .abtdiv {
+    margin-top: 20%; /* Add spacing between elements */
+  }
+
   .aboutarticle {
     margin-top: -18px;
     font-size: 4vw; /* Larger font size for readability on mobile */
@@ -484,4 +494,32 @@ section{
     font-size: 4vw; /* Larger font size for the button on mobile */
     width: 50vw; /* Make the button wider on mobile */
   }
+}
+
+@media (max-height: 600px) {
+  #about {
+    min-height: 250vh; /* Increase height for small screens */
+  }
+}
+
+@media (max-height: 900px) {
+  #about {
+    min-height: 150vh; /* Increase height for small screens */
+  }
+}
+
+#video {
+  position: relative;
+  width: 100%; /* Full width */
+  max-width: 800px; /* Limit maximum width */
+  margin: auto; /* Center the video */
+  overflow: hidden;
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+#video video {
+  width: 100%; /* Make video responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any inline spacing */
 }
