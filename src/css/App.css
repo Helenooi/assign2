@@ -242,6 +242,7 @@ section{
 #intro h2{
   font-family:"Bebas Neue", serif;
   font-size: 7vw;
+  font-size: 12vh;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   text-align: left;
@@ -471,13 +472,17 @@ section{
   opacity: 0.2; 
 }
 
+.abtdiv{
+  margin-top: 10%;
+}
+
 @media screen and (max-width: 1500px) {
   .abtdiv h1 {
     font-size: min(8vw,8wh); /* Larger font size for smaller screens */
   }
 
   .abtdiv {
-    margin-top: 20%; /* Add spacing between elements */
+    margin-top: 5%; /* Add spacing between elements */
   }
 
   .aboutarticle {
@@ -522,6 +527,75 @@ section{
 @media (max-height: 900px) {
   #about {
     min-height: 150vh; /* Increase height for small screens */
+  }
+}
+
+
+
+@media (max-width: 820px) {
+  #about {
+    min-height: 160vh; /* Increase height for small screens */
+  }
+  .abtdiv h1 {
+    font-size: 60px; /* Even larger font size for very small screens */
+  }
+
+  .abtdiv {
+    margin-top: 20%; /* Add spacing between elements */
+  }
+
+  .aboutarticle {
+    margin-top: -18px;
+    font-size: 18px; /* Larger font size for readability on mobile */
+    width: 90vw; /* Increase width on mobile */
+  }
+
+  .aboutbutton {
+    font-size: 4vw; /* Larger font size for the button on mobile */
+    width: 50vw; /* Make the button wider on mobile */
+  }
+
+  #intro h2{
+    font-size: 8vw;
+    font-size: 10vh;
+  }
+}
+
+@media (max-width: 550px) {
+  #intro h2{
+    font-size: 6vw;
+    font-size: 8vh;
+  }
+}
+
+@media (max-height: 580px) {
+  #about {
+    min-height: 180vh; /* Increase height for small screens */
+  }
+}
+
+@media (max-height: 480px) {
+  #about {
+    min-height: 210vh; /* Increase height for small screens */
+  }
+}
+
+@media (max-height: 420px) {
+  #about {
+    min-height: 250vh; /* Increase height for small screens */
+  }
+}
+
+@media (max-height: 355px) {
+  #about {
+    min-height: 300vh; /* Increase height for small screens */
+  }
+}
+
+@media (max-width: 400px) {
+  #intro h2{
+    font-size: 5vw;
+    font-size: 5vh;
   }
 }
 
