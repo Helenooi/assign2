@@ -1044,3 +1044,34 @@ h1 {
     margin-left: -480px;
   }
 }
+
+/*Here add*/
+@media (max-width: 540px) {
+  .first-box {
+    margin-left: -400px;
+  }
+}
+
+@media (max-width: 345px) {
+  .first-box {
+    margin-left: -490px;
+  }
+}
+
+@media (max-width: 415px) {
+  .first-box {
+    margin-left: -480px;
+  }
+}
+
+@media (max-width: 768px) {
+  .first-box {
+    margin-left: -260px;
+  }
+}
+
+@media (max-width: 590px) {
+  .first-box {
+    margin-left: -450px;
+  }
+}
